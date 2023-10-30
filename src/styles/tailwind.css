@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+
+        @apply bg-slate-100 dark:bg-slate-700
+    }
+}

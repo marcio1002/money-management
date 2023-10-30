@@ -1,14 +1,34 @@
+/* --- libs --- */
+import { ToastContainer } from 'react-toastify';
+import { Outlet } from 'react-router-dom';
+
+/* --- components --- */
+import { Sidebar } from '@components/organisms/Sidebar';
+import { ButtonToggleTheme } from '@components/atoms/ButtonToggleTheme';
+
+/* --- providers --- */
+import { ThemeProvider } from 'providers/ThemeProvider';
 
 /* --- global styles --- */
 import '@styles/tailwind.css';
+import 'react-toastify/dist/ReactToastify.css';
+import '@theme-toggles/react/css/Expand.css'
 
 function App() {
   return (
-    <div className='w-12/12 bg-white flex justify-center align-center'>
-      <div className='mx-auto'>
-        <button>Ok</button>
-      </div>
-    </div>
+    <>
+      <ThemeProvider>
+        <div className='flex'>
+          <Sidebar />
+
+          <Outlet />
+
+          <ButtonToggleTheme />
+        </div>
+      </ThemeProvider>
+
+      <ToastContainer position='top-right' />
+    </>
   )
 }
 

@@ -29,7 +29,8 @@
             "@pages/*": ["./pages/*"],
             "@layouts/*": ["./layouts/*"],
             "@services/*": ["./services/*"],
-            "@context/*": ["./context/*"],
+            "@providers/*": ["./providers/*"],
+            "@routes/*": ["./routes/*"],
             "@hooks/*": ["./hooks/*"],
             "@utils/*": ["./utils/*"],
             "@assets/*": ["./assets/*"]

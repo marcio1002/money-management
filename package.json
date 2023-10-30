@@ -9,8 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@theme-toggles/react": "^4.1.0",
+    "apexcharts": "^3.44.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-apexcharts": "^1.4.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.47.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.17.0",
+    "react-toastify": "^9.1.3",
+    "swr": "^2.2.4",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.21",
