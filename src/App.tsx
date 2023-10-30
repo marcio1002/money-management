@@ -14,7 +14,7 @@ import '@styles/tailwind.css';
 import 'react-toastify/dist/ReactToastify.css';
 import '@theme-toggles/react/css/Expand.css'
 
-function App() {
+export default function App() {
   return (
     <>
       <ThemeProvider>
@@ -31,5 +31,3 @@ function App() {
     </>
   )
 }
-
-export default App

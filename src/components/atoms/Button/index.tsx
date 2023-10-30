@@ -9,8 +9,8 @@ import { buttonClass } from "./styles";
 
 export function Button({ children, className = "", ...props }: ButtonProps) {
     return (
-        <Button className={css(buttonClass, className)} {...props}>
+        <button type="button" className={css(buttonClass, className)} {...props}>
             {children}
-        </Button>
+        </button>
     )
 }

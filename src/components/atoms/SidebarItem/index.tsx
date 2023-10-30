@@ -14,7 +14,7 @@ import { linkActiveClass, linkClass, linkInativeClass } from "./styles";
 export function SidebarItem({ label, icon, pathname }: SidebarItemProps) {
     const location = useLocation();
 
-    const isCurrentPathname = location.pathname === pathname;
+    const isCurrentPathname = location.pathname.replace(/\/(?=(.)+)/, '') === pathname;
 
     return (
         <li>
