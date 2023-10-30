@@ -2,7 +2,7 @@
 import { css } from "@utils/css";
 
 export const containerButtonToggleClass = css`
-    absolute
+    fixed
     top-3
     right-5
 `;

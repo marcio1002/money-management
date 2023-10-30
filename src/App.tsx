@@ -18,10 +18,12 @@ export default function App() {
   return (
     <>
       <ThemeProvider>
-        <div className='flex'>
+        <div className='w-full flex'>
           <Sidebar />
 
-          <Outlet />
+          <div className='grow'>
+            <Outlet />
+          </div>
 
           <ButtonToggleTheme />
         </div>

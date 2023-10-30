@@ -15,14 +15,19 @@ const links = [
 
 export function Sidebar() {
     return (
-        <div className={sidebarClass}>
-            <SidebarLogo />
 
-            <div className={sidebarMenuContainerClass}>
-                <SidebarMenu links={links} />
+        <>
+            <div className={sidebarClass}>
+                <SidebarLogo />
+
+                <div className={sidebarMenuContainerClass}>
+                    <SidebarMenu links={links} />
+                </div>
+
+                <SidebarBottom />
             </div>
 
-            <SidebarBottom />
-        </div>
+            <div className="sidebar-logo-not-fixed w-[270px] h-screen"></div>
+        </>
     );
 }
