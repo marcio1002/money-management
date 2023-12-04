@@ -7,10 +7,10 @@ import { Button } from '@components/atoms/Button';
 export function SidebarBottom() {
     return (
         <div className='w-full flex justify-center py-3'>
-            <Button>
-                <IoAdd className='text-xl' />
-
+            <Button className='align-middle'>
                 Add Gasto
+
+                <IoAdd className='text-xl' />
             </Button>
         </div>
     );

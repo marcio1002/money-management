@@ -4,6 +4,9 @@
       "eas": {
         "projectId": "9d7fb6cd-d028-42f5-9f83-c7e67e21eea7"
       }
+    },
+    "ios": {
+      "bundleIdentifier": "com.marcio445.moneymanagement"
     }
   }
 }

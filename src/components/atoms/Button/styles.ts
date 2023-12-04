@@ -10,7 +10,11 @@ export const buttonClass = css`
     p-2
     px-3
     bg-green-400
-    hover:saturate-[.85]
     rounded-xl
     align-middle
+    text-sm
+    cursor-pointer
+    hover:saturate-[.85]
+    disabled:saturate-[.45]
+    disabled:cursor-not-allowed
 `;

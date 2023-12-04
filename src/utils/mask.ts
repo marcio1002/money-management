@@ -1,5 +1,30 @@
 const simbolsMask = ["#", "?"];
 
+/**
+ * Helper para aplicar mascaras nos inputs de texto
+ *
+ * \# - Valores apenas numéricos
+ *
+ * ? - Valores apenas letras a-zA-Z
+ * @param  value
+ * @param mask
+ * @returns
+ *
+ * @example
+ * <input
+ *  type="text"
+ *  placeholder="00/00/0000"
+ *  value={date}
+ *  onChange={e => handleChange(mask(e.target.value, '##/##/####'))}
+ * />
+ *
+ * <input
+ *  type="text"
+ *  placeholder="f20"
+ *  value={date}
+ *  onChange={e => handleChange(mask(e.target.value, '?##'))}
+ * />
+ */
 export function mask(value: string, mask: string): string {
     const split_value = value.split("");
     const split_mask = mask.split("");
@@ -9,7 +34,7 @@ export function mask(value: string, mask: string): string {
 
         if (letter_mask === "#" && /\d/.test(letter)) return masked.concat(letter);
 
-        if (letter_mask === "?" && /\w/.test(letter)) return masked.concat(letter);
+        if (letter_mask === "?" && /\w/i.test(letter)) return masked.concat(letter);
 
         if (
             !simbolsMask.includes(letter_mask) &&
