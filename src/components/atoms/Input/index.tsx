@@ -11,7 +11,7 @@ import { inputClass } from "./styles";
 import { InputProps } from "./types";
 
 function InputComponent({ className = "", ...props }: InputProps, ref?: LegacyRef<HTMLInputElement>) {
-    return <input className={css(inputClass, className)} {...props} ref={ref} />;
+    return <input className={css(inputClass, className)} ref={ref} {...props} />;
 }
 
 export const Input = forwardRef(InputComponent);
