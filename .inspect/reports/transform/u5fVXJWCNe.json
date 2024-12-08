@@ -1,0 +1,86 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/node_modules/.vite/deps/react.js",
+  "transforms": [
+    {
+      "name": "vite:optimized-deps",
+      "result": "import {\n  require_react\n} from \"./chunk-2UC5YKPU.js\";\nimport \"./chunk-UXIASGQL.js\";\nexport default require_react();\n//# sourceMappingURL=react.js.map\n",
+      "start": 1733614384447,
+      "end": 1733614384899,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:css",
+      "start": 1733614384899,
+      "end": 1733614384899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733614384899,
+      "end": 1733614384899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733614384899,
+      "end": 1733614384899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "start": 1733614384899,
+      "end": 1733614384899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1733614384899,
+      "end": 1733614384899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733614384899,
+      "end": 1733614384899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733614384899,
+      "end": 1733614384899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733614384899,
+      "end": 1733614384899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733614384899,
+      "end": 1733614384899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733614384899,
+      "end": 1733614384899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733614384899,
+      "end": 1733614384899,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import {\n  require_react\n} from \"/node_modules/.vite/deps/chunk-2UC5YKPU.js?v=75214632\";\nimport \"/node_modules/.vite/deps/chunk-UXIASGQL.js?v=75214632\";\nexport default require_react();\n//# sourceMappingURL=react.js.map\n",
+      "start": 1733614384899,
+      "end": 1733614384899,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

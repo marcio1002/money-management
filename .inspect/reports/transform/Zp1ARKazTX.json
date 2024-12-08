@@ -1,0 +1,87 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/styles.ts",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "/* --- utils --- */\nimport { css } from \"@utils/css\";\n\nexport const formGroupClass = css`\n    text-green-400\n    focus-within:text-orange-400\n`;\n\n\nexport const spanRequiredClass = css`\n    pointer-events-none\n    text-red-400\n    dark:text-red-300\n    ms-[0.1rem]\n`;",
+      "start": 1733623493759,
+      "end": 1733623493759
+    },
+    {
+      "name": "vite:css",
+      "start": 1733623493759,
+      "end": 1733623493759,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733623493759,
+      "end": 1733623493759,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733623493759,
+      "end": 1733623493759,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "/* --- utils --- */ import { css } from \"@utils/css\";\nexport const formGroupClass = css`\n    text-green-400\n    focus-within:text-orange-400\n`;\nexport const spanRequiredClass = css`\n    pointer-events-none\n    text-red-400\n    dark:text-red-300\n    ms-[0.1rem]\n`;\n",
+      "start": 1733623493759,
+      "end": 1733623493760,
+      "order": "normal",
+      "sourcemaps": "{\"version\":3,\"sources\":[\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/styles.ts\"],\"sourcesContent\":[\"/* --- utils --- */\\nimport { css } from \\\"@utils/css\\\";\\n\\nexport const formGroupClass = css`\\n    text-green-400\\n    focus-within:text-orange-400\\n`;\\n\\n\\nexport const spanRequiredClass = css`\\n    pointer-events-none\\n    text-red-400\\n    dark:text-red-300\\n    ms-[0.1rem]\\n`;\"],\"names\":[\"css\",\"formGroupClass\",\"spanRequiredClass\"],\"mappings\":\"AAAA,iBAAiB,GACjB,SAASA,GAAG,QAAQ,aAAa;AAEjC,OAAO,MAAMC,iBAAiBD,GAAG,CAAC;;;AAGlC,CAAC,CAAC;AAGF,OAAO,MAAME,oBAAoBF,GAAG,CAAC;;;;;AAKrC,CAAC,CAAC\"}"
+    },
+    {
+      "name": "vite:define",
+      "start": 1733623493760,
+      "end": 1733623493760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733623493760,
+      "end": 1733623493760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733623493760,
+      "end": 1733623493760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733623493760,
+      "end": 1733623493760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733623493760,
+      "end": 1733623493760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733623493760,
+      "end": 1733623493760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733623493760,
+      "end": 1733623493760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "/* --- utils --- */ import { css } from \"/src/utils/css.ts\";\nexport const formGroupClass = css`\n    text-green-400\n    focus-within:text-orange-400\n`;\nexport const spanRequiredClass = css`\n    pointer-events-none\n    text-red-400\n    dark:text-red-300\n    ms-[0.1rem]\n`;\n",
+      "start": 1733623493760,
+      "end": 1733623493760,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

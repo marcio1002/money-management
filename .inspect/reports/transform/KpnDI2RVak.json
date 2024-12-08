@@ -1,0 +1,86 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/node_modules/.vite/deps/chunk-T7SQRUU7.js",
+  "transforms": [
+    {
+      "name": "vite:optimized-deps",
+      "result": "import {\n  require_react\n} from \"./chunk-2UC5YKPU.js\";\nimport {\n  __toESM\n} from \"./chunk-UXIASGQL.js\";\n\n// node_modules/react-icons/lib/esm/iconBase.js\nvar import_react2 = __toESM(require_react());\n\n// node_modules/react-icons/lib/esm/iconContext.js\nvar import_react = __toESM(require_react());\nvar DefaultContext = {\n  color: void 0,\n  size: void 0,\n  className: void 0,\n  style: void 0,\n  attr: void 0\n};\nvar IconContext = import_react.default.createContext && import_react.default.createContext(DefaultContext);\n\n// node_modules/react-icons/lib/esm/iconBase.js\nvar __assign = function() {\n  __assign = Object.assign || function(t) {\n    for (var s, i = 1, n = arguments.length; i < n; i++) {\n      s = arguments[i];\n      for (var p in s)\n        if (Object.prototype.hasOwnProperty.call(s, p))\n          t[p] = s[p];\n    }\n    return t;\n  };\n  return __assign.apply(this, arguments);\n};\nvar __rest = function(s, e) {\n  var t = {};\n  for (var p in s)\n    if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)\n      t[p] = s[p];\n  if (s != null && typeof Object.getOwnPropertySymbols === \"function\")\n    for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {\n      if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))\n        t[p[i]] = s[p[i]];\n    }\n  return t;\n};\nfunction Tree2Element(tree) {\n  return tree && tree.map(function(node, i) {\n    return import_react2.default.createElement(node.tag, __assign({\n      key: i\n    }, node.attr), Tree2Element(node.child));\n  });\n}\nfunction GenIcon(data) {\n  return function(props) {\n    return import_react2.default.createElement(IconBase, __assign({\n      attr: __assign({}, data.attr)\n    }, props), Tree2Element(data.child));\n  };\n}\nfunction IconBase(props) {\n  var elem = function(conf) {\n    var attr = props.attr, size = props.size, title = props.title, svgProps = __rest(props, [\"attr\", \"size\", \"title\"]);\n    var computedSize = size || conf.size || \"1em\";\n    var className;\n    if (conf.className)\n      className = conf.className;\n    if (props.className)\n      className = (className ? className + \" \" : \"\") + props.className;\n    return import_react2.default.createElement(\"svg\", __assign({\n      stroke: \"currentColor\",\n      fill: \"currentColor\",\n      strokeWidth: \"0\"\n    }, conf.attr, attr, svgProps, {\n      className,\n      style: __assign(__assign({\n        color: props.color || conf.color\n      }, conf.style), props.style),\n      height: computedSize,\n      width: computedSize,\n      xmlns: \"http://www.w3.org/2000/svg\"\n    }), title && import_react2.default.createElement(\"title\", null, title), props.children);\n  };\n  return IconContext !== void 0 ? import_react2.default.createElement(IconContext.Consumer, null, function(conf) {\n    return elem(conf);\n  }) : elem(DefaultContext);\n}\n\nexport {\n  GenIcon\n};\n//# sourceMappingURL=chunk-T7SQRUU7.js.map\n",
+      "start": 1733614384923,
+      "end": 1733614385007,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:css",
+      "start": 1733614385007,
+      "end": 1733614385007,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733614385007,
+      "end": 1733614385007,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733614385007,
+      "end": 1733614385007,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "start": 1733614385007,
+      "end": 1733614385007,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1733614385007,
+      "end": 1733614385007,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733614385007,
+      "end": 1733614385007,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733614385007,
+      "end": 1733614385007,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733614385007,
+      "end": 1733614385007,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733614385007,
+      "end": 1733614385007,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733614385007,
+      "end": 1733614385007,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733614385007,
+      "end": 1733614385007,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import {\n  require_react\n} from \"/node_modules/.vite/deps/chunk-2UC5YKPU.js?v=75214632\";\nimport {\n  __toESM\n} from \"/node_modules/.vite/deps/chunk-UXIASGQL.js?v=75214632\";\n\n// node_modules/react-icons/lib/esm/iconBase.js\nvar import_react2 = __toESM(require_react());\n\n// node_modules/react-icons/lib/esm/iconContext.js\nvar import_react = __toESM(require_react());\nvar DefaultContext = {\n  color: void 0,\n  size: void 0,\n  className: void 0,\n  style: void 0,\n  attr: void 0\n};\nvar IconContext = import_react.default.createContext && import_react.default.createContext(DefaultContext);\n\n// node_modules/react-icons/lib/esm/iconBase.js\nvar __assign = function() {\n  __assign = Object.assign || function(t) {\n    for (var s, i = 1, n = arguments.length; i < n; i++) {\n      s = arguments[i];\n      for (var p in s)\n        if (Object.prototype.hasOwnProperty.call(s, p))\n          t[p] = s[p];\n    }\n    return t;\n  };\n  return __assign.apply(this, arguments);\n};\nvar __rest = function(s, e) {\n  var t = {};\n  for (var p in s)\n    if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)\n      t[p] = s[p];\n  if (s != null && typeof Object.getOwnPropertySymbols === \"function\")\n    for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {\n      if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))\n        t[p[i]] = s[p[i]];\n    }\n  return t;\n};\nfunction Tree2Element(tree) {\n  return tree && tree.map(function(node, i) {\n    return import_react2.default.createElement(node.tag, __assign({\n      key: i\n    }, node.attr), Tree2Element(node.child));\n  });\n}\nfunction GenIcon(data) {\n  return function(props) {\n    return import_react2.default.createElement(IconBase, __assign({\n      attr: __assign({}, data.attr)\n    }, props), Tree2Element(data.child));\n  };\n}\nfunction IconBase(props) {\n  var elem = function(conf) {\n    var attr = props.attr, size = props.size, title = props.title, svgProps = __rest(props, [\"attr\", \"size\", \"title\"]);\n    var computedSize = size || conf.size || \"1em\";\n    var className;\n    if (conf.className)\n      className = conf.className;\n    if (props.className)\n      className = (className ? className + \" \" : \"\") + props.className;\n    return import_react2.default.createElement(\"svg\", __assign({\n      stroke: \"currentColor\",\n      fill: \"currentColor\",\n      strokeWidth: \"0\"\n    }, conf.attr, attr, svgProps, {\n      className,\n      style: __assign(__assign({\n        color: props.color || conf.color\n      }, conf.style), props.style),\n      height: computedSize,\n      width: computedSize,\n      xmlns: \"http://www.w3.org/2000/svg\"\n    }), title && import_react2.default.createElement(\"title\", null, title), props.children);\n  };\n  return IconContext !== void 0 ? import_react2.default.createElement(IconContext.Consumer, null, function(conf) {\n    return elem(conf);\n  }) : elem(DefaultContext);\n}\n\nexport {\n  GenIcon\n};\n//# sourceMappingURL=chunk-T7SQRUU7.js.map\n",
+      "start": 1733614385007,
+      "end": 1733614385007,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/utils/formatPrice.ts",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "export function formatPrice(value: string | number): string {\n    return parseFloat(String(value)).toLocaleString(\"pt-BR\", { style: \"currency\", currency: \"BRL\" });\n}\n",
+      "start": 1733614384832,
+      "end": 1733614384832
+    },
+    {
+      "name": "vite:css",
+      "start": 1733614384832,
+      "end": 1733614384832,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733614384832,
+      "end": 1733614384832,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733614384832,
+      "end": 1733614384832,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "export function formatPrice(value) {\n    return parseFloat(String(value)).toLocaleString(\"pt-BR\", {\n        style: \"currency\",\n        currency: \"BRL\"\n    });\n}\n",
+      "start": 1733614384832,
+      "end": 1733614384836,
+      "order": "normal",
+      "sourcemaps": "{\"version\":3,\"sources\":[\"/home/marcio/Documentos/projetos/money-management/src/utils/formatPrice.ts\"],\"sourcesContent\":[\"export function formatPrice(value: string | number): string {\\n    return parseFloat(String(value)).toLocaleString(\\\"pt-BR\\\", { style: \\\"currency\\\", currency: \\\"BRL\\\" });\\n}\\n\"],\"names\":[\"formatPrice\",\"value\",\"parseFloat\",\"String\",\"toLocaleString\",\"style\",\"currency\"],\"mappings\":\"AAAA,OAAO,SAASA,YAAYC,KAAsB;IAC9C,OAAOC,WAAWC,OAAOF,QAAQG,cAAc,CAAC,SAAS;QAAEC,OAAO;QAAYC,UAAU;IAAM;AAClG\"}"
+    },
+    {
+      "name": "vite:define",
+      "start": 1733614384836,
+      "end": 1733614384836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733614384836,
+      "end": 1733614384836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733614384836,
+      "end": 1733614384836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733614384836,
+      "end": 1733614384836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733614384836,
+      "end": 1733614384836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733614384836,
+      "end": 1733614384836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733614384836,
+      "end": 1733614384836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "export function formatPrice(value) {\n    return parseFloat(String(value)).toLocaleString(\"pt-BR\", {\n        style: \"currency\",\n        currency: \"BRL\"\n    });\n}\n",
+      "start": 1733614384836,
+      "end": 1733614384836,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

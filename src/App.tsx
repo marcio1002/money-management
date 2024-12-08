@@ -9,11 +9,6 @@ import { ButtonToggleTheme } from '@components/atoms/ButtonToggleTheme';
 /* --- providers --- */
 import { ThemeProvider } from 'providers/ThemeProvider';
 
-/* --- global styles --- */
-import '@styles/tailwind.css';
-import 'react-toastify/dist/ReactToastify.css';
-import '@theme-toggles/react/css/Expand.css'
-
 export default function App() {
   return (
     <>

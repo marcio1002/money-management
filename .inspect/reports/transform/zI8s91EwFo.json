@@ -1,0 +1,87 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/styles.ts",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "/* --- utils --- */\nimport { css } from \"@utils/css\";\n\nexport const navClass = css`\n    w-full\n    mb-3\n`;\n\nexport const ulClass = css`\n    w-full\n    flex\n    flex-col\n    gap-2\n    mb-3\n`;\n",
+      "start": 1733614384833,
+      "end": 1733614384833
+    },
+    {
+      "name": "vite:css",
+      "start": 1733614384833,
+      "end": 1733614384833,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733614384833,
+      "end": 1733614384833,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733614384833,
+      "end": 1733614384833,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "/* --- utils --- */ import { css } from \"@utils/css\";\nexport const navClass = css`\n    w-full\n    mb-3\n`;\nexport const ulClass = css`\n    w-full\n    flex\n    flex-col\n    gap-2\n    mb-3\n`;\n",
+      "start": 1733614384833,
+      "end": 1733614384837,
+      "order": "normal",
+      "sourcemaps": "{\"version\":3,\"sources\":[\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/styles.ts\"],\"sourcesContent\":[\"/* --- utils --- */\\nimport { css } from \\\"@utils/css\\\";\\n\\nexport const navClass = css`\\n    w-full\\n    mb-3\\n`;\\n\\nexport const ulClass = css`\\n    w-full\\n    flex\\n    flex-col\\n    gap-2\\n    mb-3\\n`;\\n\"],\"names\":[\"css\",\"navClass\",\"ulClass\"],\"mappings\":\"AAAA,iBAAiB,GACjB,SAASA,GAAG,QAAQ,aAAa;AAEjC,OAAO,MAAMC,WAAWD,GAAG,CAAC;;;AAG5B,CAAC,CAAC;AAEF,OAAO,MAAME,UAAUF,GAAG,CAAC;;;;;;AAM3B,CAAC,CAAC\"}"
+    },
+    {
+      "name": "vite:define",
+      "start": 1733614384837,
+      "end": 1733614384837,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733614384837,
+      "end": 1733614384837,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733614384837,
+      "end": 1733614384837,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733614384837,
+      "end": 1733614384837,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733614384837,
+      "end": 1733614384837,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733614384837,
+      "end": 1733614384837,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733614384837,
+      "end": 1733614384837,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "/* --- utils --- */ import { css } from \"/src/utils/css.ts\";\nexport const navClass = css`\n    w-full\n    mb-3\n`;\nexport const ulClass = css`\n    w-full\n    flex\n    flex-col\n    gap-2\n    mb-3\n`;\n",
+      "start": 1733614384837,
+      "end": 1733614384837,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

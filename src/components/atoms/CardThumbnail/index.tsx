@@ -4,7 +4,7 @@ import { css } from "@utils/css";
 /* --- styles --- */
 import { boxImgClass, imgClass } from "./styles";
 
-/* --- contracts --- */
+/* --- types --- */
 import { CardThumbnailProps } from "./types";
 
 export function CardThumbnail({ src, imgClassName = "", className = "", ...props }: CardThumbnailProps) {

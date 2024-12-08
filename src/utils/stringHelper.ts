@@ -1,3 +1,6 @@
+/* --- libs --- */
+import dayjs from "dayjs";
+
 /**
  * Remove acentos e caracteres especiais para verificação de igualdade ou pesquisa por palavra
  * @param value
@@ -36,4 +39,22 @@ export function sortedString<T = any>(field?: keyof T, optionsSorts: Intl.Collat
             locale,
             optionsSorts
         );
+}
+
+/**
+ * Helper para formatar data e hora com base no fuso horário
+ * @param date
+ * @param format
+ * @returns
+ *
+ * @example
+ * formatDatetime(new Date(), 'DD/MM/YYYY')
+ * formatDatetime(new Date(), 'DD/MM/YYYY HH:mm:ss')
+ */
+export function formatDatetime(
+    date: string | Date,
+    format: string,
+    timezone: string = "America/Sao_Paulo"
+): string {
+    return dayjs.tz(date, timezone).format(format);
 }

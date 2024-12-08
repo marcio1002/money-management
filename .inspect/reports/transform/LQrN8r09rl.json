@@ -1,0 +1,112 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/components/atoms/ButtonToggleTheme/index.tsx",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "/* --- libs --- */\nimport { Expand as ButtonTheme } from \"@theme-toggles/react\";\n\n/* --- providers --- */\nimport { useTheme } from \"@providers/ThemeProvider\";\n\n/* --- styles --- */\nimport { containerButtonToggleClass, iconClass } from \"./styles\";\n\nexport function ButtonToggleTheme() {\n    const { theme, toggleTheme } = useTheme();\n\n    return (\n        <div className={containerButtonToggleClass}>\n            <ButtonTheme\n                className={iconClass}\n                toggled={theme === \"dark\"}\n                toggle={toggleTheme}\n                title={`Trocar de tema para ${theme === 'dark' ? 'claro' : 'escuro'}`}\n                reversed\n            />\n        </div>\n    );\n}\n",
+      "start": 1733614384787,
+      "end": 1733614384787
+    },
+    {
+      "name": "vite:css",
+      "start": 1733614384787,
+      "end": 1733614384787,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733614384787,
+      "end": 1733614384787,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733614384787,
+      "end": 1733614384787,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/ButtonToggleTheme/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- libs --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nvar _s = $RefreshSig$();\nimport { Expand as ButtonTheme } from \"@theme-toggles/react\";\n/* --- providers --- */ import { useTheme } from \"@providers/ThemeProvider\";\n/* --- styles --- */ import { containerButtonToggleClass, iconClass } from \"./styles\";\nexport function ButtonToggleTheme() {\n    _s();\n    const { theme, toggleTheme } = useTheme();\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: containerButtonToggleClass,\n        children: /*#__PURE__*/ _jsxDEV(ButtonTheme, {\n            className: iconClass,\n            toggled: theme === \"dark\",\n            toggle: toggleTheme,\n            title: `Trocar de tema para ${theme === 'dark' ? 'claro' : 'escuro'}`,\n            reversed: true\n        }, void 0, false, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/ButtonToggleTheme/index.tsx\",\n            lineNumber: 15,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/ButtonToggleTheme/index.tsx\",\n        lineNumber: 14,\n        columnNumber: 9\n    }, this);\n}\n_s(ButtonToggleTheme, \"Q4eAjrIZ0CuRuhycs6byifK2KBk=\", false, function() {\n    return [\n        useTheme\n    ];\n});\n_c = ButtonToggleTheme;\nvar _c;\n$RefreshReg$(_c, \"ButtonToggleTheme\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/ButtonToggleTheme/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/ButtonToggleTheme/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
+      "start": 1733614384787,
+      "end": 1733614384797,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "index.tsx"
+        ],
+        "sourcesContent": [
+          "/* --- libs --- */\nimport { Expand as ButtonTheme } from \"@theme-toggles/react\";\n\n/* --- providers --- */\nimport { useTheme } from \"@providers/ThemeProvider\";\n\n/* --- styles --- */\nimport { containerButtonToggleClass, iconClass } from \"./styles\";\n\nexport function ButtonToggleTheme() {\n    const { theme, toggleTheme } = useTheme();\n\n    return (\n        <div className={containerButtonToggleClass}>\n            <ButtonTheme\n                className={iconClass}\n                toggled={theme === \"dark\"}\n                toggle={toggleTheme}\n                title={`Trocar de tema para ${theme === 'dark' ? 'claro' : 'escuro'}`}\n                reversed\n            />\n        </div>\n    );\n}\n"
+        ],
+        "names": [
+          "Expand",
+          "ButtonTheme",
+          "useTheme",
+          "containerButtonToggleClass",
+          "iconClass",
+          "ButtonToggleTheme",
+          "theme",
+          "toggleTheme",
+          "div",
+          "className",
+          "toggled",
+          "toggle",
+          "title",
+          "reversed"
+        ],
+        "mappings": ";;;;;;;;AAAA,gBAAgB;;AAChB,SAASA,UAAUC,WAAW,QAAQ,uBAAuB;AAE7D,qBAAqB,GACrB,SAASC,QAAQ,QAAQ,2BAA2B;AAEpD,kBAAkB,GAClB,SAASC,0BAA0B,EAAEC,SAAS,QAAQ,WAAW;AAEjE,OAAO,SAASC;;IACZ,MAAM,EAAEC,KAAK,EAAEC,WAAW,EAAE,GAAGL;IAE/B,qBACI,QAACM;QAAIC,WAAWN;kBACZ,cAAA,QAACF;YACGQ,WAAWL;YACXM,SAASJ,UAAU;YACnBK,QAAQJ;YACRK,OAAO,CAAC,oBAAoB,EAAEN,UAAU,SAAS,UAAU,UAAU;YACrEO,QAAQ;;;;;;;;;;;AAIxB;GAdgBR;;QACmBH;;;KADnBG"
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1733614384797,
+      "end": 1733614384797,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733614384797,
+      "end": 1733614384797,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733614384797,
+      "end": 1733614384797,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733614384797,
+      "end": 1733614384797,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733614384797,
+      "end": 1733614384797,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733614384797,
+      "end": 1733614384797,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733614384797,
+      "end": 1733614384797,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/atoms/ButtonToggleTheme/index.tsx\");if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/ButtonToggleTheme/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- libs --- */ import __vite__cjsImport1_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c12ee5d5\"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime[\"jsxDEV\"];\nvar _s = $RefreshSig$();\nimport { Expand as ButtonTheme } from \"/node_modules/.vite/deps/@theme-toggles_react.js?v=8319bb05\";\n/* --- providers --- */ import { useTheme } from \"/src/providers/ThemeProvider/index.tsx\";\n/* --- styles --- */ import { containerButtonToggleClass, iconClass } from \"/src/components/atoms/ButtonToggleTheme/styles.ts\";\nexport function ButtonToggleTheme() {\n    _s();\n    const { theme, toggleTheme } = useTheme();\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: containerButtonToggleClass,\n        children: /*#__PURE__*/ _jsxDEV(ButtonTheme, {\n            className: iconClass,\n            toggled: theme === \"dark\",\n            toggle: toggleTheme,\n            title: `Trocar de tema para ${theme === 'dark' ? 'claro' : 'escuro'}`,\n            reversed: true\n        }, void 0, false, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/ButtonToggleTheme/index.tsx\",\n            lineNumber: 15,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/ButtonToggleTheme/index.tsx\",\n        lineNumber: 14,\n        columnNumber: 9\n    }, this);\n}\n_s(ButtonToggleTheme, \"Q4eAjrIZ0CuRuhycs6byifK2KBk=\", false, function() {\n    return [\n        useTheme\n    ];\n});\n_c = ButtonToggleTheme;\nvar _c;\n$RefreshReg$(_c, \"ButtonToggleTheme\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/ButtonToggleTheme/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/ButtonToggleTheme/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
+      "start": 1733614384797,
+      "end": 1733614384799,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

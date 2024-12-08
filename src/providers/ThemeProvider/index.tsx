@@ -1,7 +1,7 @@
 /* --- main --- */
 import { createContext, useContext, useEffect, useState } from "react";
 
-/* --- contracts --- */
+/* --- types --- */
 import { ThemeProps, ThemeProviderProps, ThemeType } from "./types";
 
 const ThemeContext = createContext({} as ThemeProps);

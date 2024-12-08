@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 /* --- utils --- */
 import { css } from "@utils/css";
 
-/* --- contracts --- */
+/* --- types --- */
 import { SidebarItemProps } from "./types";
 
 /* --- styles --- */
@@ -14,7 +14,7 @@ import { linkActiveClass, linkClass, linkInativeClass } from "./styles";
 export function SidebarItem({ label, icon, pathname }: SidebarItemProps) {
     const location = useLocation();
 
-    const isCurrentPathname = location.pathname.replace(/\/(?=(.)+)/, '') === pathname;
+    const isCurrentPathname = location.pathname === pathname;
 
     return (
         <li>
@@ -24,7 +24,7 @@ export function SidebarItem({ label, icon, pathname }: SidebarItemProps) {
             >
                 {cloneElement(icon, { className: "text-lg" })}
 
-                <span className="block mt-1">{label}</span>
+                <span className="block">{label}</span>
             </Link>
         </li>
     );

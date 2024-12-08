@@ -1,0 +1,87 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/components/atoms/Label/styles.ts",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "/* --- utils --- */\nimport { css } from \"@utils/css\";\n\nexport const labelClass = css`\n    text-sm\n    font-semibold\n    uppercase\n    mb-2\n`;\n",
+      "start": 1733614384839,
+      "end": 1733614384839
+    },
+    {
+      "name": "vite:css",
+      "start": 1733614384839,
+      "end": 1733614384839,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733614384839,
+      "end": 1733614384839,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733614384839,
+      "end": 1733614384839,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "/* --- utils --- */ import { css } from \"@utils/css\";\nexport const labelClass = css`\n    text-sm\n    font-semibold\n    uppercase\n    mb-2\n`;\n",
+      "start": 1733614384839,
+      "end": 1733614384840,
+      "order": "normal",
+      "sourcemaps": "{\"version\":3,\"sources\":[\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Label/styles.ts\"],\"sourcesContent\":[\"/* --- utils --- */\\nimport { css } from \\\"@utils/css\\\";\\n\\nexport const labelClass = css`\\n    text-sm\\n    font-semibold\\n    uppercase\\n    mb-2\\n`;\\n\"],\"names\":[\"css\",\"labelClass\"],\"mappings\":\"AAAA,iBAAiB,GACjB,SAASA,GAAG,QAAQ,aAAa;AAEjC,OAAO,MAAMC,aAAaD,GAAG,CAAC;;;;;AAK9B,CAAC,CAAC\"}"
+    },
+    {
+      "name": "vite:define",
+      "start": 1733614384841,
+      "end": 1733614384841,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733614384841,
+      "end": 1733614384841,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733614384841,
+      "end": 1733614384841,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733614384841,
+      "end": 1733614384841,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733614384841,
+      "end": 1733614384841,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733614384841,
+      "end": 1733614384841,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733614384841,
+      "end": 1733614384841,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "/* --- utils --- */ import { css } from \"/src/utils/css.ts\";\nexport const labelClass = css`\n    text-sm\n    font-semibold\n    uppercase\n    mb-2\n`;\n",
+      "start": 1733614384841,
+      "end": 1733614384841,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

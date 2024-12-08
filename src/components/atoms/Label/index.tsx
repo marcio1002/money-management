@@ -4,7 +4,7 @@ import { css } from "@utils/css";
 /* --- styles --- */
 import { labelClass } from "./styles";
 
-/* --- contracts --- */
+/* --- types --- */
 import { LabelProps } from "./types";
 
 export function Label({ text, className = "", ...props }: LabelProps) {

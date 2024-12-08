@@ -1,7 +1,7 @@
 /* --- utils --- */
 import { css } from "@utils/css";
 
-/* --- contracts --- */
+/* --- types --- */
 import { ButtonProps } from "./types";
 
 /* --- styles --- */

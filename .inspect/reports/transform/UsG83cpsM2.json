@@ -1,0 +1,87 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/utils/css.ts",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "function formatCss(css: string | TemplateStringsArray) {\n    return (Array.isArray(css) ? css[0] : css).trim().replace(/[\\n\\s]+/g, \" \");\n}\n\nexport function css(...css: [TemplateStringsArray] | string[]): string {\n    return css.map(formatCss).join(\" \").trim();\n}\n",
+      "start": 1733614384812,
+      "end": 1733614384812
+    },
+    {
+      "name": "vite:css",
+      "start": 1733614384812,
+      "end": 1733614384812,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733614384812,
+      "end": 1733614384812,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733614384812,
+      "end": 1733614384812,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "function formatCss(css) {\n    return (Array.isArray(css) ? css[0] : css).trim().replace(/[\\n\\s]+/g, \" \");\n}\nexport function css(...css1) {\n    return css1.map(formatCss).join(\" \").trim();\n}\n",
+      "start": 1733614384812,
+      "end": 1733614384817,
+      "order": "normal",
+      "sourcemaps": "{\"version\":3,\"sources\":[\"/home/marcio/Documentos/projetos/money-management/src/utils/css.ts\"],\"sourcesContent\":[\"function formatCss(css: string | TemplateStringsArray) {\\n    return (Array.isArray(css) ? css[0] : css).trim().replace(/[\\\\n\\\\s]+/g, \\\" \\\");\\n}\\n\\nexport function css(...css: [TemplateStringsArray] | string[]): string {\\n    return css.map(formatCss).join(\\\" \\\").trim();\\n}\\n\"],\"names\":[\"formatCss\",\"css\",\"Array\",\"isArray\",\"trim\",\"replace\",\"map\",\"join\"],\"mappings\":\"AAAA,SAASA,UAAUC,GAAkC;IACjD,OAAO,AAACC,CAAAA,MAAMC,OAAO,CAACF,OAAOA,GAAG,CAAC,EAAE,GAAGA,GAAE,EAAGG,IAAI,GAAGC,OAAO,CAAC,YAAY;AAC1E;AAEA,OAAO,SAASJ,IAAI,GAAGA,IAAsC;IACzD,OAAOA,KAAIK,GAAG,CAACN,WAAWO,IAAI,CAAC,KAAKH,IAAI;AAC5C\"}"
+    },
+    {
+      "name": "vite:define",
+      "start": 1733614384817,
+      "end": 1733614384817,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733614384817,
+      "end": 1733614384817,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733614384817,
+      "end": 1733614384817,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733614384817,
+      "end": 1733614384817,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733614384817,
+      "end": 1733614384817,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733614384817,
+      "end": 1733614384817,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733614384817,
+      "end": 1733614384817,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "function formatCss(css) {\n    return (Array.isArray(css) ? css[0] : css).trim().replace(/[\\n\\s]+/g, \" \");\n}\nexport function css(...css1) {\n    return css1.map(formatCss).join(\" \").trim();\n}\n",
+      "start": 1733614384817,
+      "end": 1733614384817,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

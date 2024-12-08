@@ -7,7 +7,7 @@ import { css } from "@utils/css";
 /* --- styles --- */
 import { textAreaClass } from "./styles";
 
-/* --- contracts --- */
+/* --- types --- */
 import { TextareaProps } from "./types";
 
 function TextareaComponent({ className = "", ...props }: TextareaProps, ref?: LegacyRef<HTMLTextAreaElement>) {

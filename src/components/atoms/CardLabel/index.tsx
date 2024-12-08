@@ -1,11 +1,11 @@
 /* --- utils --- */
 import { css } from "@utils/css";
 
+/* --- types --- */
+import { CardLabelProps } from "./types";
+
 /* --- styles --- */
 import { labelClass } from "./styles";
-
-/* --- contracts --- */
-import { CardLabelProps } from "./types";
 
 export function CardLabel({ text, children, className = "", ...props }: CardLabelProps) {
     return (

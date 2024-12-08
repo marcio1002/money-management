@@ -1,0 +1,125 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/providers/ThemeProvider/index.tsx",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "/* --- main --- */\nimport { createContext, useContext, useEffect, useState } from \"react\";\n\n/* --- types --- */\nimport { ThemeProps, ThemeProviderProps, ThemeType } from \"./types\";\n\nconst ThemeContext = createContext({} as ThemeProps);\n\nconst storageKeyTheme = \"next\";\n\nexport function ThemeProvider({ children }: ThemeProviderProps) {\n    const [theme, setTheme] = useState<ThemeType>(\n        () => (window.localStorage.getItem(storageKeyTheme) as ThemeType) ?? \"dark\"\n    );\n\n    function toggleTheme() {\n        setTheme((t) => {\n            const changeTheme = t === \"dark\" ? \"light\" : \"dark\";\n\n            window.localStorage.setItem(storageKeyTheme, changeTheme);\n\n            return changeTheme;\n        });\n    }\n\n    useEffect(() => {\n        const html = document.querySelector(\"html\");\n\n        html?.classList?.remove(\"dark\", \"light\");\n        html?.classList?.add(theme);\n    }, [theme]);\n\n    const data: ThemeProps = {\n        theme,\n        toggleTheme,\n    };\n\n    return <ThemeContext.Provider value={data}>{children}</ThemeContext.Provider>;\n}\n\nexport const useTheme = () => useContext(ThemeContext);\n",
+      "start": 1733614384787,
+      "end": 1733614384787
+    },
+    {
+      "name": "vite:css",
+      "start": 1733614384787,
+      "end": 1733614384787,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733614384787,
+      "end": 1733614384787,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733614384787,
+      "end": 1733614384787,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/providers/ThemeProvider/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- main --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nvar _s = $RefreshSig$(), _s1 = $RefreshSig$();\nimport { createContext, useContext, useEffect, useState } from \"react\";\nconst ThemeContext = /*#__PURE__*/ createContext({});\nconst storageKeyTheme = \"next\";\nexport function ThemeProvider({ children }) {\n    _s();\n    const [theme, setTheme] = useState(()=>window.localStorage.getItem(storageKeyTheme) ?? \"dark\");\n    function toggleTheme() {\n        setTheme((t)=>{\n            const changeTheme = t === \"dark\" ? \"light\" : \"dark\";\n            window.localStorage.setItem(storageKeyTheme, changeTheme);\n            return changeTheme;\n        });\n    }\n    useEffect(()=>{\n        const html = document.querySelector(\"html\");\n        html?.classList?.remove(\"dark\", \"light\");\n        html?.classList?.add(theme);\n    }, [\n        theme\n    ]);\n    const data = {\n        theme,\n        toggleTheme\n    };\n    return /*#__PURE__*/ _jsxDEV(ThemeContext.Provider, {\n        value: data,\n        children: children\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/providers/ThemeProvider/index.tsx\",\n        lineNumber: 38,\n        columnNumber: 12\n    }, this);\n}\n_s(ThemeProvider, \"BqRFj/LENe9WM429J23DmvzjKck=\");\n_c = ThemeProvider;\nexport const useTheme = ()=>{\n    _s1();\n    return useContext(ThemeContext);\n};\n_s1(useTheme, \"gDsCjeeItUuvgOWf1v4qoK9RF6k=\");\nvar _c;\n$RefreshReg$(_c, \"ThemeProvider\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/providers/ThemeProvider/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/providers/ThemeProvider/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
+      "start": 1733614384787,
+      "end": 1733614384801,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "index.tsx"
+        ],
+        "sourcesContent": [
+          "/* --- main --- */\nimport { createContext, useContext, useEffect, useState } from \"react\";\n\n/* --- types --- */\nimport { ThemeProps, ThemeProviderProps, ThemeType } from \"./types\";\n\nconst ThemeContext = createContext({} as ThemeProps);\n\nconst storageKeyTheme = \"next\";\n\nexport function ThemeProvider({ children }: ThemeProviderProps) {\n    const [theme, setTheme] = useState<ThemeType>(\n        () => (window.localStorage.getItem(storageKeyTheme) as ThemeType) ?? \"dark\"\n    );\n\n    function toggleTheme() {\n        setTheme((t) => {\n            const changeTheme = t === \"dark\" ? \"light\" : \"dark\";\n\n            window.localStorage.setItem(storageKeyTheme, changeTheme);\n\n            return changeTheme;\n        });\n    }\n\n    useEffect(() => {\n        const html = document.querySelector(\"html\");\n\n        html?.classList?.remove(\"dark\", \"light\");\n        html?.classList?.add(theme);\n    }, [theme]);\n\n    const data: ThemeProps = {\n        theme,\n        toggleTheme,\n    };\n\n    return <ThemeContext.Provider value={data}>{children}</ThemeContext.Provider>;\n}\n\nexport const useTheme = () => useContext(ThemeContext);\n"
+        ],
+        "names": [
+          "createContext",
+          "useContext",
+          "useEffect",
+          "useState",
+          "ThemeContext",
+          "storageKeyTheme",
+          "ThemeProvider",
+          "children",
+          "theme",
+          "setTheme",
+          "window",
+          "localStorage",
+          "getItem",
+          "toggleTheme",
+          "t",
+          "changeTheme",
+          "setItem",
+          "html",
+          "document",
+          "querySelector",
+          "classList",
+          "remove",
+          "add",
+          "data",
+          "Provider",
+          "value",
+          "useTheme"
+        ],
+        "mappings": ";;;;;;;;AAAA,gBAAgB;;AAChB,SAASA,aAAa,EAAEC,UAAU,EAAEC,SAAS,EAAEC,QAAQ,QAAQ,QAAQ;AAKvE,MAAMC,6BAAeJ,cAAc,CAAC;AAEpC,MAAMK,kBAAkB;AAExB,OAAO,SAASC,cAAc,EAAEC,QAAQ,EAAsB;;IAC1D,MAAM,CAACC,OAAOC,SAAS,GAAGN,SACtB,IAAM,AAACO,OAAOC,YAAY,CAACC,OAAO,CAACP,oBAAkC;IAGzE,SAASQ;QACLJ,SAAS,CAACK;YACN,MAAMC,cAAcD,MAAM,SAAS,UAAU;YAE7CJ,OAAOC,YAAY,CAACK,OAAO,CAACX,iBAAiBU;YAE7C,OAAOA;QACX;IACJ;IAEAb,UAAU;QACN,MAAMe,OAAOC,SAASC,aAAa,CAAC;QAEpCF,MAAMG,WAAWC,OAAO,QAAQ;QAChCJ,MAAMG,WAAWE,IAAId;IACzB,GAAG;QAACA;KAAM;IAEV,MAAMe,OAAmB;QACrBf;QACAK;IACJ;IAEA,qBAAO,QAACT,aAAaoB,QAAQ;QAACC,OAAOF;kBAAOhB;;;;;;AAChD;GA5BgBD;KAAAA;AA8BhB,OAAO,MAAMoB,WAAW;;IAAMzB,OAAAA,WAAWG;AAAY,EAAE;IAA1CsB"
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1733614384801,
+      "end": 1733614384801,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733614384801,
+      "end": 1733614384801,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733614384801,
+      "end": 1733614384801,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733614384801,
+      "end": 1733614384801,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733614384801,
+      "end": 1733614384801,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733614384801,
+      "end": 1733614384801,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733614384801,
+      "end": 1733614384801,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/providers/ThemeProvider/index.tsx\");if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/providers/ThemeProvider/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- main --- */ import __vite__cjsImport1_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c12ee5d5\"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime[\"jsxDEV\"];\nvar _s = $RefreshSig$(), _s1 = $RefreshSig$();\nimport __vite__cjsImport2_react from \"/node_modules/.vite/deps/react.js?v=dcff9708\"; const createContext = __vite__cjsImport2_react[\"createContext\"]; const useContext = __vite__cjsImport2_react[\"useContext\"]; const useEffect = __vite__cjsImport2_react[\"useEffect\"]; const useState = __vite__cjsImport2_react[\"useState\"];\nconst ThemeContext = /*#__PURE__*/ createContext({});\nconst storageKeyTheme = \"next\";\nexport function ThemeProvider({ children }) {\n    _s();\n    const [theme, setTheme] = useState(()=>window.localStorage.getItem(storageKeyTheme) ?? \"dark\");\n    function toggleTheme() {\n        setTheme((t)=>{\n            const changeTheme = t === \"dark\" ? \"light\" : \"dark\";\n            window.localStorage.setItem(storageKeyTheme, changeTheme);\n            return changeTheme;\n        });\n    }\n    useEffect(()=>{\n        const html = document.querySelector(\"html\");\n        html?.classList?.remove(\"dark\", \"light\");\n        html?.classList?.add(theme);\n    }, [\n        theme\n    ]);\n    const data = {\n        theme,\n        toggleTheme\n    };\n    return /*#__PURE__*/ _jsxDEV(ThemeContext.Provider, {\n        value: data,\n        children: children\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/providers/ThemeProvider/index.tsx\",\n        lineNumber: 38,\n        columnNumber: 12\n    }, this);\n}\n_s(ThemeProvider, \"BqRFj/LENe9WM429J23DmvzjKck=\");\n_c = ThemeProvider;\nexport const useTheme = ()=>{\n    _s1();\n    return useContext(ThemeContext);\n};\n_s1(useTheme, \"gDsCjeeItUuvgOWf1v4qoK9RF6k=\");\nvar _c;\n$RefreshReg$(_c, \"ThemeProvider\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/providers/ThemeProvider/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/providers/ThemeProvider/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
+      "start": 1733614384801,
+      "end": 1733614384802,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/components/organisms/FormExpenses/styles.ts",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "import { css } from \"@utils/css\";\n\nexport const formExpensesClass = css`\n    w-10/12\n    lg:w-5/12\n    xl:w-4/12\n    h-screen\n    mx-auto\n    flex\n    justify-center\n    items-center\n    py-5\n    px-3\n`;",
+      "start": 1733626169388,
+      "end": 1733626169388
+    },
+    {
+      "name": "vite:css",
+      "start": 1733626169388,
+      "end": 1733626169388,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733626169388,
+      "end": 1733626169388,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733626169388,
+      "end": 1733626169388,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "import { css } from \"@utils/css\";\nexport const formExpensesClass = css`\n    w-10/12\n    lg:w-5/12\n    xl:w-4/12\n    h-screen\n    mx-auto\n    flex\n    justify-center\n    items-center\n    py-5\n    px-3\n`;\n",
+      "start": 1733626169388,
+      "end": 1733626169389,
+      "order": "normal",
+      "sourcemaps": "{\"version\":3,\"sources\":[\"/home/marcio/Documentos/projetos/money-management/src/components/organisms/FormExpenses/styles.ts\"],\"sourcesContent\":[\"import { css } from \\\"@utils/css\\\";\\n\\nexport const formExpensesClass = css`\\n    w-10/12\\n    lg:w-5/12\\n    xl:w-4/12\\n    h-screen\\n    mx-auto\\n    flex\\n    justify-center\\n    items-center\\n    py-5\\n    px-3\\n`;\"],\"names\":[\"css\",\"formExpensesClass\"],\"mappings\":\"AAAA,SAASA,GAAG,QAAQ,aAAa;AAEjC,OAAO,MAAMC,oBAAoBD,GAAG,CAAC;;;;;;;;;;;AAWrC,CAAC,CAAC\"}"
+    },
+    {
+      "name": "vite:define",
+      "start": 1733626169389,
+      "end": 1733626169389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733626169389,
+      "end": 1733626169389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733626169389,
+      "end": 1733626169389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733626169389,
+      "end": 1733626169389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733626169389,
+      "end": 1733626169389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733626169389,
+      "end": 1733626169389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733626169389,
+      "end": 1733626169389,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { css } from \"/src/utils/css.ts\";\nexport const formExpensesClass = css`\n    w-10/12\n    lg:w-5/12\n    xl:w-4/12\n    h-screen\n    mx-auto\n    flex\n    justify-center\n    items-center\n    py-5\n    px-3\n`;\n",
+      "start": 1733626169389,
+      "end": 1733626169390,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

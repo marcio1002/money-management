@@ -1,0 +1,106 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/index.tsx",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "/* --- utils --- */\nimport { css } from \"@utils/css\";\n\n/* --- types --- */\nimport { FormErrorProps } from \"./types\";\n\n/* --- styles --- */\nimport { formErrorClass } from \"./styles\";\n\nexport function FormError({ text, className = \"\", ...props }: FormErrorProps) {\n    return (\n        <div className=\"w-full my-1\">\n            {!!text && (\n                <span className={css(formErrorClass, className)} {...props}>\n                    {text}\n                </span>\n            )}\n        </div>\n    );\n}\n",
+      "start": 1733614384813,
+      "end": 1733614384813
+    },
+    {
+      "name": "vite:css",
+      "start": 1733614384813,
+      "end": 1733614384813,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733614384813,
+      "end": 1733614384813,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733614384813,
+      "end": 1733614384813,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- utils --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nimport { css } from \"@utils/css\";\n/* --- styles --- */ import { formErrorClass } from \"./styles\";\nexport function FormError({ text, className = \"\", ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: \"w-full my-1\",\n        children: !!text && /*#__PURE__*/ _jsxDEV(\"span\", {\n            className: css(formErrorClass, className),\n            ...props,\n            children: text\n        }, void 0, false, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/index.tsx\",\n            lineNumber: 14,\n            columnNumber: 17\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/index.tsx\",\n        lineNumber: 12,\n        columnNumber: 9\n    }, this);\n}\n_c = FormError;\nvar _c;\n$RefreshReg$(_c, \"FormError\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
+      "start": 1733614384813,
+      "end": 1733614384819,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "index.tsx"
+        ],
+        "sourcesContent": [
+          "/* --- utils --- */\nimport { css } from \"@utils/css\";\n\n/* --- types --- */\nimport { FormErrorProps } from \"./types\";\n\n/* --- styles --- */\nimport { formErrorClass } from \"./styles\";\n\nexport function FormError({ text, className = \"\", ...props }: FormErrorProps) {\n    return (\n        <div className=\"w-full my-1\">\n            {!!text && (\n                <span className={css(formErrorClass, className)} {...props}>\n                    {text}\n                </span>\n            )}\n        </div>\n    );\n}\n"
+        ],
+        "names": [
+          "css",
+          "formErrorClass",
+          "FormError",
+          "text",
+          "className",
+          "props",
+          "div",
+          "span"
+        ],
+        "mappings": ";;;;;;;;AAAA,iBAAiB;AACjB,SAASA,GAAG,QAAQ,aAAa;AAKjC,kBAAkB,GAClB,SAASC,cAAc,QAAQ,WAAW;AAE1C,OAAO,SAASC,UAAU,EAAEC,IAAI,EAAEC,YAAY,EAAE,EAAE,GAAGC,OAAuB;IACxE,qBACI,QAACC;QAAIF,WAAU;kBACV,CAAC,CAACD,sBACC,QAACI;YAAKH,WAAWJ,IAAIC,gBAAgBG;YAAa,GAAGC,KAAK;sBACrDF;;;;;;;;;;;AAKrB;KAVgBD"
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1733614384819,
+      "end": 1733614384819,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733614384819,
+      "end": 1733614384819,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733614384819,
+      "end": 1733614384819,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733614384819,
+      "end": 1733614384819,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733614384819,
+      "end": 1733614384819,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733614384819,
+      "end": 1733614384819,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733614384819,
+      "end": 1733614384819,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/atoms/FormError/index.tsx\");if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- utils --- */ import __vite__cjsImport1_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c12ee5d5\"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime[\"jsxDEV\"];\nimport { css } from \"/src/utils/css.ts\";\n/* --- styles --- */ import { formErrorClass } from \"/src/components/atoms/FormError/styles.ts\";\nexport function FormError({ text, className = \"\", ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: \"w-full my-1\",\n        children: !!text && /*#__PURE__*/ _jsxDEV(\"span\", {\n            className: css(formErrorClass, className),\n            ...props,\n            children: text\n        }, void 0, false, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/index.tsx\",\n            lineNumber: 14,\n            columnNumber: 17\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/index.tsx\",\n        lineNumber: 12,\n        columnNumber: 9\n    }, this);\n}\n_c = FormError;\nvar _c;\n$RefreshReg$(_c, \"FormError\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
+      "start": 1733614384819,
+      "end": 1733614384819,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

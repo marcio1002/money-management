@@ -1,0 +1,86 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/node_modules/.vite/deps/react-dom_client.js",
+  "transforms": [
+    {
+      "name": "vite:optimized-deps",
+      "result": "import {\n  require_react_dom\n} from \"./chunk-BUQ3EWXL.js\";\nimport \"./chunk-2UC5YKPU.js\";\nimport {\n  __commonJS\n} from \"./chunk-UXIASGQL.js\";\n\n// node_modules/react-dom/client.js\nvar require_client = __commonJS({\n  \"node_modules/react-dom/client.js\"(exports) {\n    var m = require_react_dom();\n    if (false) {\n      exports.createRoot = m.createRoot;\n      exports.hydrateRoot = m.hydrateRoot;\n    } else {\n      i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;\n      exports.createRoot = function(c, o) {\n        i.usingClientEntryPoint = true;\n        try {\n          return m.createRoot(c, o);\n        } finally {\n          i.usingClientEntryPoint = false;\n        }\n      };\n      exports.hydrateRoot = function(c, h, o) {\n        i.usingClientEntryPoint = true;\n        try {\n          return m.hydrateRoot(c, h, o);\n        } finally {\n          i.usingClientEntryPoint = false;\n        }\n      };\n    }\n    var i;\n  }\n});\nexport default require_client();\n//# sourceMappingURL=react-dom_client.js.map\n",
+      "start": 1733614384447,
+      "end": 1733614384900,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:css",
+      "start": 1733614384901,
+      "end": 1733614384901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733614384901,
+      "end": 1733614384901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733614384901,
+      "end": 1733614384901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "start": 1733614384901,
+      "end": 1733614384901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1733614384901,
+      "end": 1733614384901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733614384901,
+      "end": 1733614384901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733614384901,
+      "end": 1733614384901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733614384901,
+      "end": 1733614384901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733614384901,
+      "end": 1733614384901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733614384901,
+      "end": 1733614384901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733614384901,
+      "end": 1733614384901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import {\n  require_react_dom\n} from \"/node_modules/.vite/deps/chunk-BUQ3EWXL.js?v=75214632\";\nimport \"/node_modules/.vite/deps/chunk-2UC5YKPU.js?v=75214632\";\nimport {\n  __commonJS\n} from \"/node_modules/.vite/deps/chunk-UXIASGQL.js?v=75214632\";\n\n// node_modules/react-dom/client.js\nvar require_client = __commonJS({\n  \"node_modules/react-dom/client.js\"(exports) {\n    var m = require_react_dom();\n    if (false) {\n      exports.createRoot = m.createRoot;\n      exports.hydrateRoot = m.hydrateRoot;\n    } else {\n      i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;\n      exports.createRoot = function(c, o) {\n        i.usingClientEntryPoint = true;\n        try {\n          return m.createRoot(c, o);\n        } finally {\n          i.usingClientEntryPoint = false;\n        }\n      };\n      exports.hydrateRoot = function(c, h, o) {\n        i.usingClientEntryPoint = true;\n        try {\n          return m.hydrateRoot(c, h, o);\n        } finally {\n          i.usingClientEntryPoint = false;\n        }\n      };\n    }\n    var i;\n  }\n});\nexport default require_client();\n//# sourceMappingURL=react-dom_client.js.map\n",
+      "start": 1733614384901,
+      "end": 1733614384901,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

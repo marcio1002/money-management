@@ -5,6 +5,7 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import OverViewPage from "@pages/Overview";
 import CategoriesPage from "@pages/Categories";
+import ExpensesPage from "@pages/Espenses";
 
 export const routes = createBrowserRouter([
     {
@@ -16,8 +17,12 @@ export const routes = createBrowserRouter([
                 element: <OverViewPage />
             },
             {
-                path: "categories",
+                path: "/categories",
                 element: <CategoriesPage />
+            },
+            {
+                path: "/expenses",
+                element: <ExpensesPage />
             }
         ]
     }

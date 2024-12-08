@@ -1,0 +1,113 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "/* --- utils --- */\nimport { css } from \"@utils/css\";\n\n/* --- components --- */\nimport { Label } from \"@components/atoms/Label\";\n\n/* --- types --- */\nimport { FormGroupProps } from \"./types\";\n\n/* --- styles --- */\nimport { formGroupClass, spanRequiredClass } from \"./styles\";\n\nexport function FormGroup({ name, text, labelProps, children, required = false, className = \"\", ...props }: FormGroupProps) {\n    return (\n        <div className={css(formGroupClass, className)} {...props}>\n            <Label text={text} htmlFor={name} {...labelProps} />\n            {required && <span className={spanRequiredClass}>*</span>}\n\n            {children}\n        </div>\n    );\n}\n",
+      "start": 1733625592253,
+      "end": 1733625592253
+    },
+    {
+      "name": "vite:css",
+      "start": 1733625592253,
+      "end": 1733625592253,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733625592253,
+      "end": 1733625592253,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733625592253,
+      "end": 1733625592253,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- utils --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nimport { css } from \"@utils/css\";\n/* --- components --- */ import { Label } from \"@components/atoms/Label\";\n/* --- styles --- */ import { formGroupClass, spanRequiredClass } from \"./styles\";\nexport function FormGroup({ name, text, labelProps, children, required = false, className = \"\", ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: css(formGroupClass, className),\n        ...props,\n        children: [\n            /*#__PURE__*/ _jsxDEV(Label, {\n                text: text,\n                htmlFor: name,\n                ...labelProps\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx\",\n                lineNumber: 16,\n                columnNumber: 13\n            }, this),\n            required && /*#__PURE__*/ _jsxDEV(\"span\", {\n                className: spanRequiredClass,\n                children: \"*\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx\",\n                lineNumber: 17,\n                columnNumber: 26\n            }, this),\n            children\n        ]\n    }, void 0, true, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx\",\n        lineNumber: 15,\n        columnNumber: 9\n    }, this);\n}\n_c = FormGroup;\nvar _c;\n$RefreshReg$(_c, \"FormGroup\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
+      "start": 1733625592253,
+      "end": 1733625592263,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "index.tsx"
+        ],
+        "sourcesContent": [
+          "/* --- utils --- */\nimport { css } from \"@utils/css\";\n\n/* --- components --- */\nimport { Label } from \"@components/atoms/Label\";\n\n/* --- types --- */\nimport { FormGroupProps } from \"./types\";\n\n/* --- styles --- */\nimport { formGroupClass, spanRequiredClass } from \"./styles\";\n\nexport function FormGroup({ name, text, labelProps, children, required = false, className = \"\", ...props }: FormGroupProps) {\n    return (\n        <div className={css(formGroupClass, className)} {...props}>\n            <Label text={text} htmlFor={name} {...labelProps} />\n            {required && <span className={spanRequiredClass}>*</span>}\n\n            {children}\n        </div>\n    );\n}\n"
+        ],
+        "names": [
+          "css",
+          "Label",
+          "formGroupClass",
+          "spanRequiredClass",
+          "FormGroup",
+          "name",
+          "text",
+          "labelProps",
+          "children",
+          "required",
+          "className",
+          "props",
+          "div",
+          "htmlFor",
+          "span"
+        ],
+        "mappings": ";;;;;;;;AAAA,iBAAiB;AACjB,SAASA,GAAG,QAAQ,aAAa;AAEjC,sBAAsB,GACtB,SAASC,KAAK,QAAQ,0BAA0B;AAKhD,kBAAkB,GAClB,SAASC,cAAc,EAAEC,iBAAiB,QAAQ,WAAW;AAE7D,OAAO,SAASC,UAAU,EAAEC,IAAI,EAAEC,IAAI,EAAEC,UAAU,EAAEC,QAAQ,EAAEC,WAAW,KAAK,EAAEC,YAAY,EAAE,EAAE,GAAGC,OAAuB;IACtH,qBACI,QAACC;QAAIF,WAAWV,IAAIE,gBAAgBQ;QAAa,GAAGC,KAAK;;0BACrD,QAACV;gBAAMK,MAAMA;gBAAMO,SAASR;gBAAO,GAAGE,UAAU;;;;;;YAC/CE,0BAAY,QAACK;gBAAKJ,WAAWP;0BAAmB;;;;;;YAEhDK;;;;;;;AAGb;KATgBJ"
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1733625592263,
+      "end": 1733625592263,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733625592263,
+      "end": 1733625592263,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733625592263,
+      "end": 1733625592263,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733625592263,
+      "end": 1733625592263,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733625592263,
+      "end": 1733625592263,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733625592263,
+      "end": 1733625592263,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733625592263,
+      "end": 1733625592263,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/molecules/FormGroup/index.tsx\");if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- utils --- */ import __vite__cjsImport1_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c12ee5d5\"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime[\"jsxDEV\"];\nimport { css } from \"/src/utils/css.ts\";\n/* --- components --- */ import { Label } from \"/src/components/atoms/Label/index.tsx\";\n/* --- styles --- */ import { formGroupClass, spanRequiredClass } from \"/src/components/molecules/FormGroup/styles.ts?t=1733623493716\";\nexport function FormGroup({ name, text, labelProps, children, required = false, className = \"\", ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: css(formGroupClass, className),\n        ...props,\n        children: [\n            /*#__PURE__*/ _jsxDEV(Label, {\n                text: text,\n                htmlFor: name,\n                ...labelProps\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx\",\n                lineNumber: 16,\n                columnNumber: 13\n            }, this),\n            required && /*#__PURE__*/ _jsxDEV(\"span\", {\n                className: spanRequiredClass,\n                children: \"*\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx\",\n                lineNumber: 17,\n                columnNumber: 26\n            }, this),\n            children\n        ]\n    }, void 0, true, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx\",\n        lineNumber: 15,\n        columnNumber: 9\n    }, this);\n}\n_c = FormGroup;\nvar _c;\n$RefreshReg$(_c, \"FormGroup\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/FormGroup/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
+      "start": 1733625592263,
+      "end": 1733625592267,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

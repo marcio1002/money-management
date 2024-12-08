@@ -7,7 +7,7 @@ import { css } from "@utils/css";
 /* --- styles --- */
 import { inputClass } from "./styles";
 
-/* --- contracts --- */
+/* --- types --- */
 import { InputProps } from "./types";
 
 function InputComponent({ className = "", ...props }: InputProps, ref?: LegacyRef<HTMLInputElement>) {

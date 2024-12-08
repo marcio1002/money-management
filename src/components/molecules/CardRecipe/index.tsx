@@ -9,7 +9,7 @@ import { CardThumbnail } from "@components/atoms/CardThumbnail";
 /* --- styles --- */
 import { recipeClass } from "./styles";
 
-/* --- contracts --- */
+/* --- types --- */
 import { CardRecipeProps } from "./types";
 
 export function CardRecipe({ className = "", ...props }: CardRecipeProps) {

@@ -15,6 +15,6 @@ export const buttonClass = css`
     text-sm
     cursor-pointer
     hover:saturate-[.85]
-    disabled:saturate-[.45]
+    disabled:brightness-[.70]
     disabled:cursor-not-allowed
 `;

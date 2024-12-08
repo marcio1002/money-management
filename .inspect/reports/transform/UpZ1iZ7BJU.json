@@ -1,0 +1,110 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "/* --- components --- */\nimport { SidebarItem } from \"@components/atoms/SidebarItem\";\n\n/* --- types --- */\nimport { SidebarMenuProps } from \"./types\";\n\n/* --- styles --- */\nimport { navClass, ulClass } from \"./styles\";\n\nexport function SidebarMenu({ links, ...props }: SidebarMenuProps) {\n    return (\n        <nav className={navClass} {...props}>\n            <ul className={ulClass}>\n                {links.map((link) => (\n                    <SidebarItem key={link.pathname} {...link} />\n                ))}\n            </ul>\n        </nav>\n    );\n}\n",
+      "start": 1733626402045,
+      "end": 1733626402045
+    },
+    {
+      "name": "vite:css",
+      "start": 1733626402045,
+      "end": 1733626402045,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733626402045,
+      "end": 1733626402045,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733626402045,
+      "end": 1733626402045,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- components --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nimport { SidebarItem } from \"@components/atoms/SidebarItem\";\n/* --- styles --- */ import { navClass, ulClass } from \"./styles\";\nexport function SidebarMenu({ links, ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"nav\", {\n        className: navClass,\n        ...props,\n        children: /*#__PURE__*/ _jsxDEV(\"ul\", {\n            className: ulClass,\n            children: links.map((link)=>/*#__PURE__*/ _jsxDEV(SidebarItem, {\n                    ...link\n                }, link.pathname, false, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx\",\n                    lineNumber: 15,\n                    columnNumber: 21\n                }, this))\n        }, void 0, false, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx\",\n            lineNumber: 13,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx\",\n        lineNumber: 12,\n        columnNumber: 9\n    }, this);\n}\n_c = SidebarMenu;\nvar _c;\n$RefreshReg$(_c, \"SidebarMenu\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
+      "start": 1733626402045,
+      "end": 1733626402047,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "index.tsx"
+        ],
+        "sourcesContent": [
+          "/* --- components --- */\nimport { SidebarItem } from \"@components/atoms/SidebarItem\";\n\n/* --- types --- */\nimport { SidebarMenuProps } from \"./types\";\n\n/* --- styles --- */\nimport { navClass, ulClass } from \"./styles\";\n\nexport function SidebarMenu({ links, ...props }: SidebarMenuProps) {\n    return (\n        <nav className={navClass} {...props}>\n            <ul className={ulClass}>\n                {links.map((link) => (\n                    <SidebarItem key={link.pathname} {...link} />\n                ))}\n            </ul>\n        </nav>\n    );\n}\n"
+        ],
+        "names": [
+          "SidebarItem",
+          "navClass",
+          "ulClass",
+          "SidebarMenu",
+          "links",
+          "props",
+          "nav",
+          "className",
+          "ul",
+          "map",
+          "link",
+          "pathname"
+        ],
+        "mappings": ";;;;;;;;AAAA,sBAAsB;AACtB,SAASA,WAAW,QAAQ,gCAAgC;AAK5D,kBAAkB,GAClB,SAASC,QAAQ,EAAEC,OAAO,QAAQ,WAAW;AAE7C,OAAO,SAASC,YAAY,EAAEC,KAAK,EAAE,GAAGC,OAAyB;IAC7D,qBACI,QAACC;QAAIC,WAAWN;QAAW,GAAGI,KAAK;kBAC/B,cAAA,QAACG;YAAGD,WAAWL;sBACVE,MAAMK,GAAG,CAAC,CAACC,qBACR,QAACV;oBAAiC,GAAGU,IAAI;mBAAvBA,KAAKC,QAAQ;;;;;;;;;;;;;;;AAKnD;KAVgBR"
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1733626402047,
+      "end": 1733626402047,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733626402047,
+      "end": 1733626402047,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733626402047,
+      "end": 1733626402047,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733626402047,
+      "end": 1733626402047,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733626402047,
+      "end": 1733626402047,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733626402047,
+      "end": 1733626402047,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733626402047,
+      "end": 1733626402047,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/molecules/SidebarMenu/index.tsx\");if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- components --- */ import __vite__cjsImport1_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c12ee5d5\"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime[\"jsxDEV\"];\nimport { SidebarItem } from \"/src/components/atoms/SidebarItem/index.tsx?t=1733626360284\";\n/* --- styles --- */ import { navClass, ulClass } from \"/src/components/molecules/SidebarMenu/styles.ts\";\nexport function SidebarMenu({ links, ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"nav\", {\n        className: navClass,\n        ...props,\n        children: /*#__PURE__*/ _jsxDEV(\"ul\", {\n            className: ulClass,\n            children: links.map((link)=>/*#__PURE__*/ _jsxDEV(SidebarItem, {\n                    ...link\n                }, link.pathname, false, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx\",\n                    lineNumber: 15,\n                    columnNumber: 21\n                }, this))\n        }, void 0, false, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx\",\n            lineNumber: 13,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx\",\n        lineNumber: 12,\n        columnNumber: 9\n    }, this);\n}\n_c = SidebarMenu;\nvar _c;\n$RefreshReg$(_c, \"SidebarMenu\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarMenu/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
+      "start": 1733626402047,
+      "end": 1733626402048,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

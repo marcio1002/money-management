@@ -1,7 +1,7 @@
 /* --- components --- */
 import { SidebarItem } from "@components/atoms/SidebarItem";
 
-/* --- contracts --- */
+/* --- types --- */
 import { SidebarMenuProps } from "./types";
 
 /* --- styles --- */

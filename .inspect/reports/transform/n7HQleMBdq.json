@@ -1,0 +1,86 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/node_modules/.vite/deps/@hookform_resolvers_zod.js",
+  "transforms": [
+    {
+      "name": "vite:optimized-deps",
+      "result": "import {\n  appendErrors,\n  get,\n  set\n} from \"./chunk-BOOOGWWU.js\";\nimport \"./chunk-2UC5YKPU.js\";\nimport \"./chunk-UXIASGQL.js\";\n\n// node_modules/@hookform/resolvers/dist/resolvers.mjs\nvar s = (e, s2, o2) => {\n  if (e && \"reportValidity\" in e) {\n    const r2 = get(o2, s2);\n    e.setCustomValidity(r2 && r2.message || \"\"), e.reportValidity();\n  }\n};\nvar o = (t2, e) => {\n  for (const o2 in e.fields) {\n    const r2 = e.fields[o2];\n    r2 && r2.ref && \"reportValidity\" in r2.ref ? s(r2.ref, o2, t2) : r2.refs && r2.refs.forEach((e2) => s(e2, o2, t2));\n  }\n};\nvar r = (s2, r2) => {\n  r2.shouldUseNativeValidation && o(s2, r2);\n  const f = {};\n  for (const o2 in s2) {\n    const n2 = get(r2.fields, o2), a = Object.assign(s2[o2] || {}, { ref: n2 && n2.ref });\n    if (i(r2.names || Object.keys(s2), o2)) {\n      const s3 = Object.assign({}, get(f, o2));\n      set(s3, \"root\", a), set(f, o2, s3);\n    } else\n      set(f, o2, a);\n  }\n  return f;\n};\nvar i = (t2, e) => t2.some((t3) => t3.startsWith(e + \".\"));\n\n// node_modules/@hookform/resolvers/zod/dist/zod.mjs\nvar n = function(r2, e) {\n  for (var n2 = {}; r2.length; ) {\n    var t2 = r2[0], s2 = t2.code, i2 = t2.message, a = t2.path.join(\".\");\n    if (!n2[a])\n      if (\"unionErrors\" in t2) {\n        var u = t2.unionErrors[0].errors[0];\n        n2[a] = { message: u.message, type: u.code };\n      } else\n        n2[a] = { message: i2, type: s2 };\n    if (\"unionErrors\" in t2 && t2.unionErrors.forEach(function(e2) {\n      return e2.errors.forEach(function(e3) {\n        return r2.push(e3);\n      });\n    }), e) {\n      var c = n2[a].types, f = c && c[t2.code];\n      n2[a] = appendErrors(a, e, n2, s2, f ? [].concat(f, t2.message) : t2.message);\n    }\n    r2.shift();\n  }\n  return n2;\n};\nvar t = function(o2, t2, s2) {\n  return void 0 === s2 && (s2 = {}), function(i2, a, u) {\n    try {\n      return Promise.resolve(function(e, n2) {\n        try {\n          var a2 = Promise.resolve(o2[\"sync\" === s2.mode ? \"parse\" : \"parseAsync\"](i2, t2)).then(function(e2) {\n            return u.shouldUseNativeValidation && o({}, u), { errors: {}, values: s2.raw ? i2 : e2 };\n          });\n        } catch (r2) {\n          return n2(r2);\n        }\n        return a2 && a2.then ? a2.then(void 0, n2) : a2;\n      }(0, function(r2) {\n        if (function(r3) {\n          return Array.isArray(null == r3 ? void 0 : r3.errors);\n        }(r2))\n          return { values: {}, errors: r(n(r2.errors, !u.shouldUseNativeValidation && \"all\" === u.criteriaMode), u) };\n        throw r2;\n      }));\n    } catch (r2) {\n      return Promise.reject(r2);\n    }\n  };\n};\nexport {\n  t as zodResolver\n};\n//# sourceMappingURL=@hookform_resolvers_zod.js.map\n",
+      "start": 1733614384795,
+      "end": 1733614384911,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:css",
+      "start": 1733614384911,
+      "end": 1733614384911,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1733614384911,
+      "end": 1733614384911,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1733614384911,
+      "end": 1733614384911,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "start": 1733614384911,
+      "end": 1733614384911,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1733614384911,
+      "end": 1733614384911,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1733614384911,
+      "end": 1733614384911,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1733614384911,
+      "end": 1733614384911,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1733614384911,
+      "end": 1733614384911,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1733614384911,
+      "end": 1733614384911,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1733614384911,
+      "end": 1733614384911,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1733614384911,
+      "end": 1733614384911,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import {\n  appendErrors,\n  get,\n  set\n} from \"/node_modules/.vite/deps/chunk-BOOOGWWU.js?v=75214632\";\nimport \"/node_modules/.vite/deps/chunk-2UC5YKPU.js?v=75214632\";\nimport \"/node_modules/.vite/deps/chunk-UXIASGQL.js?v=75214632\";\n\n// node_modules/@hookform/resolvers/dist/resolvers.mjs\nvar s = (e, s2, o2) => {\n  if (e && \"reportValidity\" in e) {\n    const r2 = get(o2, s2);\n    e.setCustomValidity(r2 && r2.message || \"\"), e.reportValidity();\n  }\n};\nvar o = (t2, e) => {\n  for (const o2 in e.fields) {\n    const r2 = e.fields[o2];\n    r2 && r2.ref && \"reportValidity\" in r2.ref ? s(r2.ref, o2, t2) : r2.refs && r2.refs.forEach((e2) => s(e2, o2, t2));\n  }\n};\nvar r = (s2, r2) => {\n  r2.shouldUseNativeValidation && o(s2, r2);\n  const f = {};\n  for (const o2 in s2) {\n    const n2 = get(r2.fields, o2), a = Object.assign(s2[o2] || {}, { ref: n2 && n2.ref });\n    if (i(r2.names || Object.keys(s2), o2)) {\n      const s3 = Object.assign({}, get(f, o2));\n      set(s3, \"root\", a), set(f, o2, s3);\n    } else\n      set(f, o2, a);\n  }\n  return f;\n};\nvar i = (t2, e) => t2.some((t3) => t3.startsWith(e + \".\"));\n\n// node_modules/@hookform/resolvers/zod/dist/zod.mjs\nvar n = function(r2, e) {\n  for (var n2 = {}; r2.length; ) {\n    var t2 = r2[0], s2 = t2.code, i2 = t2.message, a = t2.path.join(\".\");\n    if (!n2[a])\n      if (\"unionErrors\" in t2) {\n        var u = t2.unionErrors[0].errors[0];\n        n2[a] = { message: u.message, type: u.code };\n      } else\n        n2[a] = { message: i2, type: s2 };\n    if (\"unionErrors\" in t2 && t2.unionErrors.forEach(function(e2) {\n      return e2.errors.forEach(function(e3) {\n        return r2.push(e3);\n      });\n    }), e) {\n      var c = n2[a].types, f = c && c[t2.code];\n      n2[a] = appendErrors(a, e, n2, s2, f ? [].concat(f, t2.message) : t2.message);\n    }\n    r2.shift();\n  }\n  return n2;\n};\nvar t = function(o2, t2, s2) {\n  return void 0 === s2 && (s2 = {}), function(i2, a, u) {\n    try {\n      return Promise.resolve(function(e, n2) {\n        try {\n          var a2 = Promise.resolve(o2[\"sync\" === s2.mode ? \"parse\" : \"parseAsync\"](i2, t2)).then(function(e2) {\n            return u.shouldUseNativeValidation && o({}, u), { errors: {}, values: s2.raw ? i2 : e2 };\n          });\n        } catch (r2) {\n          return n2(r2);\n        }\n        return a2 && a2.then ? a2.then(void 0, n2) : a2;\n      }(0, function(r2) {\n        if (function(r3) {\n          return Array.isArray(null == r3 ? void 0 : r3.errors);\n        }(r2))\n          return { values: {}, errors: r(n(r2.errors, !u.shouldUseNativeValidation && \"all\" === u.criteriaMode), u) };\n        throw r2;\n      }));\n    } catch (r2) {\n      return Promise.reject(r2);\n    }\n  };\n};\nexport {\n  t as zodResolver\n};\n//# sourceMappingURL=@hookform_resolvers_zod.js.map\n",
+      "start": 1733614384911,
+      "end": 1733614384912,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}
