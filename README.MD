@@ -19,4 +19,4 @@
 
 [zod](https://zod.dev/)
 
-[dayjs][https://day.js.org/en/]
+[dayjs](https://day.js.org/en/)
