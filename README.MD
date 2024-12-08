@@ -18,3 +18,5 @@
 [swr](https://swr.vercel.app/pt-BR)
 
 [zod](https://zod.dev/)
+
+[dayjs][https://day.js.org/en/]
