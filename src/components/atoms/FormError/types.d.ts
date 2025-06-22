@@ -1,5 +1,3 @@
-import { HTMLAttributes } from "react";
-
-export interface FormErrorProps extends HTMLAttributes<HTMLSpanElement> {
+export interface FormErrorProps extends React.HTMLAttributes<HTMLSpanElement> {
     text: string;
 }

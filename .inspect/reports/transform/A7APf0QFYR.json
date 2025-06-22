@@ -1,0 +1,108 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/components/atoms/Select/index.tsx",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "/* --- main --- */\nimport { forwardRef, Ref } from \"react\";\n\n/* --- utils --- */\nimport { css } from \"@utils/css\";\n\n/* --- styles --- */\nimport { selectClass } from \"./styles\";\n\n/* --- types --- */\nimport { SelectProps } from \"./types\";\n\nfunction SelectComponent({ children, className = \"\", ...props }: SelectProps, ref: Ref<HTMLSelectElement>) {\n    return (\n        <select className={css(selectClass, className)} ref={ref} {...props}>\n            {children}\n        </select>\n    )\n}\n\n\nexport const Select = forwardRef(SelectComponent);",
+      "start": 1750620938354,
+      "end": 1750620938354
+    },
+    {
+      "name": "vite:css",
+      "start": 1750620938354,
+      "end": 1750620938354,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1750620938354,
+      "end": 1750620938354,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750620938354,
+      "end": 1750620938354,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Select/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- main --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nimport { forwardRef } from \"react\";\n/* --- utils --- */ import { css } from \"@utils/css\";\n/* --- styles --- */ import { selectClass } from \"./styles\";\nfunction SelectComponent({ children, className = \"\", ...props }, ref) {\n    return /*#__PURE__*/ _jsxDEV(\"select\", {\n        className: css(selectClass, className),\n        ref: ref,\n        ...props,\n        children: children\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Select/index.tsx\",\n        lineNumber: 15,\n        columnNumber: 9\n    }, this);\n}\n_c = SelectComponent;\nexport const Select = /*#__PURE__*/ forwardRef(SelectComponent);\n_c1 = Select;\nvar _c, _c1;\n$RefreshReg$(_c, \"SelectComponent\");\n$RefreshReg$(_c1, \"Select\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Select/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Select/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750620938354,
+      "end": 1750620938375,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "index.tsx"
+        ],
+        "sourcesContent": [
+          "/* --- main --- */\nimport { forwardRef, Ref } from \"react\";\n\n/* --- utils --- */\nimport { css } from \"@utils/css\";\n\n/* --- styles --- */\nimport { selectClass } from \"./styles\";\n\n/* --- types --- */\nimport { SelectProps } from \"./types\";\n\nfunction SelectComponent({ children, className = \"\", ...props }: SelectProps, ref: Ref<HTMLSelectElement>) {\n    return (\n        <select className={css(selectClass, className)} ref={ref} {...props}>\n            {children}\n        </select>\n    )\n}\n\n\nexport const Select = forwardRef(SelectComponent);"
+        ],
+        "names": [
+          "forwardRef",
+          "css",
+          "selectClass",
+          "SelectComponent",
+          "children",
+          "className",
+          "props",
+          "ref",
+          "select",
+          "Select"
+        ],
+        "mappings": ";;;;;;;;;;;;;;;;;;;AAAA,gBAAgB;AAChB,SAASA,UAAU,QAAa,QAAQ;AAExC,iBAAiB,GACjB,SAASC,GAAG,QAAQ,aAAa;AAEjC,kBAAkB,GAClB,SAASC,WAAW,QAAQ,WAAW;AAKvC,SAASC,gBAAgB,EAAEC,QAAQ,EAAEC,YAAY,EAAE,EAAE,GAAGC,OAAoB,EAAEC,GAA2B;IACrG,qBACI,QAACC;QAAOH,WAAWJ,IAAIC,aAAaG;QAAYE,KAAKA;QAAM,GAAGD,KAAK;kBAC9DF;;;;;;AAGb;KANSD;AAST,OAAO,MAAMM,uBAAST,WAAWG,iBAAiB"
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750620938375,
+      "end": 1750620938375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1750620938375,
+      "end": 1750620938375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750620938375,
+      "end": 1750620938375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750620938375,
+      "end": 1750620938375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750620938375,
+      "end": 1750620938375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750620938375,
+      "end": 1750620938375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1750620938375,
+      "end": 1750620938375,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/atoms/Select/index.tsx\");import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Select/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- main --- */ import __vite__cjsImport2_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4130fc4\"; const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime[\"jsxDEV\"];\nimport __vite__cjsImport3_react from \"/node_modules/.vite/deps/react.js?v=d4130fc4\"; const forwardRef = __vite__cjsImport3_react[\"forwardRef\"];\n/* --- utils --- */ import { css } from \"/src/utils/css.ts\";\n/* --- styles --- */ import { selectClass } from \"/src/components/atoms/Select/styles.ts\";\nfunction SelectComponent({ children, className = \"\", ...props }, ref) {\n    return /*#__PURE__*/ _jsxDEV(\"select\", {\n        className: css(selectClass, className),\n        ref: ref,\n        ...props,\n        children: children\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Select/index.tsx\",\n        lineNumber: 15,\n        columnNumber: 9\n    }, this);\n}\n_c = SelectComponent;\nexport const Select = /*#__PURE__*/ forwardRef(SelectComponent);\n_c1 = Select;\nvar _c, _c1;\n$RefreshReg$(_c, \"SelectComponent\");\n$RefreshReg$(_c1, \"Select\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Select/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Select/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750620938375,
+      "end": 1750620938375,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

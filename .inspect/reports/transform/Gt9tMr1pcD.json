@@ -1,0 +1,102 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/pages/Categories/index.tsx",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "/* --- components --- */\nimport { FormCategory } from \"@components/organisms/FormCategory\";\n\nexport default function CategoriesPage() {\n    return (\n        <section id=\"categories\">\n            <FormCategory />\n        </section>\n    );\n}",
+      "start": 1750620938174,
+      "end": 1750620938174
+    },
+    {
+      "name": "vite:css",
+      "start": 1750620938174,
+      "end": 1750620938174,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1750620938174,
+      "end": 1750620938174,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750620938174,
+      "end": 1750620938174,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/pages/Categories/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- components --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nimport { FormCategory } from \"@components/organisms/FormCategory\";\nexport default function CategoriesPage() {\n    return /*#__PURE__*/ _jsxDEV(\"section\", {\n        id: \"categories\",\n        children: /*#__PURE__*/ _jsxDEV(FormCategory, {}, void 0, false, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/pages/Categories/index.tsx\",\n            lineNumber: 7,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/pages/Categories/index.tsx\",\n        lineNumber: 6,\n        columnNumber: 9\n    }, this);\n}\n_c = CategoriesPage;\nvar _c;\n$RefreshReg$(_c, \"CategoriesPage\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/pages/Categories/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/pages/Categories/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750620938174,
+      "end": 1750620938208,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "index.tsx"
+        ],
+        "sourcesContent": [
+          "/* --- components --- */\nimport { FormCategory } from \"@components/organisms/FormCategory\";\n\nexport default function CategoriesPage() {\n    return (\n        <section id=\"categories\">\n            <FormCategory />\n        </section>\n    );\n}"
+        ],
+        "names": [
+          "FormCategory",
+          "CategoriesPage",
+          "section",
+          "id"
+        ],
+        "mappings": ";;;;;;;;;;;;;;;;;;;AAAA,sBAAsB;AACtB,SAASA,YAAY,QAAQ,qCAAqC;AAElE,eAAe,SAASC;IACpB,qBACI,QAACC;QAAQC,IAAG;kBACR,cAAA,QAACH;;;;;;;;;;AAGb;KANwBC"
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750620938208,
+      "end": 1750620938208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1750620938208,
+      "end": 1750620938208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750620938208,
+      "end": 1750620938208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750620938208,
+      "end": 1750620938208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750620938208,
+      "end": 1750620938208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750620938208,
+      "end": 1750620938208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1750620938208,
+      "end": 1750620938208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/pages/Categories/index.tsx\");import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/pages/Categories/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- components --- */ import __vite__cjsImport2_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4130fc4\"; const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime[\"jsxDEV\"];\nimport { FormCategory } from \"/src/components/organisms/FormCategory/index.tsx\";\nexport default function CategoriesPage() {\n    return /*#__PURE__*/ _jsxDEV(\"section\", {\n        id: \"categories\",\n        children: /*#__PURE__*/ _jsxDEV(FormCategory, {}, void 0, false, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/pages/Categories/index.tsx\",\n            lineNumber: 7,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/pages/Categories/index.tsx\",\n        lineNumber: 6,\n        columnNumber: 9\n    }, this);\n}\n_c = CategoriesPage;\nvar _c;\n$RefreshReg$(_c, \"CategoriesPage\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/pages/Categories/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/pages/Categories/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750620938208,
+      "end": 1750620938209,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

@@ -3,83 +3,83 @@
   "transforms": [
     {
       "name": "__load__",
-      "result": "import { css } from \"@utils/css\";\n\nexport const formErrorClass = css`\n    text-red-200\n    font-medium\n`;\n",
-      "start": 1733614384832,
-      "end": 1733614384832
+      "result": "import { css } from \"@utils/css\";\n\nexport const formErrorClass = css`\n    text-red-500\n    dark:text-red-400\n    font-normal\n`;\n",
+      "start": 1750620938441,
+      "end": 1750620938441
     },
     {
       "name": "vite:css",
-      "start": 1733614384832,
-      "end": 1733614384832,
+      "start": 1750620938441,
+      "end": 1750620938441,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1733614384832,
-      "end": 1733614384832,
+      "start": 1750620938441,
+      "end": 1750620938441,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1733614384832,
-      "end": 1733614384832,
+      "start": 1750620938441,
+      "end": 1750620938441,
       "order": "normal"
     },
     {
       "name": "vite:react-swc",
-      "result": "import { css } from \"@utils/css\";\nexport const formErrorClass = css`\n    text-red-200\n    font-medium\n`;\n",
-      "start": 1733614384832,
-      "end": 1733614384833,
+      "result": "import { css } from \"@utils/css\";\nexport const formErrorClass = css`\n    text-red-500\n    dark:text-red-400\n    font-normal\n`;\n",
+      "start": 1750620938441,
+      "end": 1750620938449,
       "order": "normal",
-      "sourcemaps": "{\"version\":3,\"sources\":[\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/styles.ts\"],\"sourcesContent\":[\"import { css } from \\\"@utils/css\\\";\\n\\nexport const formErrorClass = css`\\n    text-red-200\\n    font-medium\\n`;\\n\"],\"names\":[\"css\",\"formErrorClass\"],\"mappings\":\"AAAA,SAASA,GAAG,QAAQ,aAAa;AAEjC,OAAO,MAAMC,iBAAiBD,GAAG,CAAC;;;AAGlC,CAAC,CAAC\"}"
+      "sourcemaps": "{\"version\":3,\"sources\":[\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/FormError/styles.ts\"],\"sourcesContent\":[\"import { css } from \\\"@utils/css\\\";\\n\\nexport const formErrorClass = css`\\n    text-red-500\\n    dark:text-red-400\\n    font-normal\\n`;\\n\"],\"names\":[\"css\",\"formErrorClass\"],\"mappings\":\"AAAA,SAASA,GAAG,QAAQ,aAAa;AAEjC,OAAO,MAAMC,iBAAiBD,GAAG,CAAC;;;;AAIlC,CAAC,CAAC\"}"
     },
     {
       "name": "vite:define",
-      "start": 1733614384833,
-      "end": 1733614384833,
+      "start": 1750620938449,
+      "end": 1750620938449,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1733614384833,
-      "end": 1733614384833,
+      "start": 1750620938449,
+      "end": 1750620938449,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1733614384833,
-      "end": 1733614384833,
+      "start": 1750620938449,
+      "end": 1750620938449,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1733614384833,
-      "end": 1733614384833,
+      "start": 1750620938449,
+      "end": 1750620938449,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1733614384833,
-      "end": 1733614384833,
+      "start": 1750620938449,
+      "end": 1750620938449,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1733614384833,
-      "end": 1733614384833,
+      "start": 1750620938449,
+      "end": 1750620938449,
       "order": "normal"
     },
     {
       "name": "vite:client-inject",
-      "start": 1733614384833,
-      "end": 1733614384833,
+      "start": 1750620938449,
+      "end": 1750620938449,
       "order": "normal"
     },
     {
       "name": "vite:import-analysis",
-      "result": "import { css } from \"/src/utils/css.ts\";\nexport const formErrorClass = css`\n    text-red-200\n    font-medium\n`;\n",
-      "start": 1733614384833,
-      "end": 1733614384834,
+      "result": "import { css } from \"/src/utils/css.ts\";\nexport const formErrorClass = css`\n    text-red-500\n    dark:text-red-400\n    font-normal\n`;\n",
+      "start": 1750620938449,
+      "end": 1750620938449,
       "order": "normal",
       "sourcemaps": null
     }

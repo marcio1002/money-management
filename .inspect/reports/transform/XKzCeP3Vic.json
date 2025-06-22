@@ -1,0 +1,86 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/node_modules/.vite/deps/dayjs_plugin_timezone.js",
+  "transforms": [
+    {
+      "name": "vite:optimized-deps",
+      "result": "import {\n  __commonJS\n} from \"./chunk-UXIASGQL.js\";\n\n// node_modules/dayjs/plugin/timezone.js\nvar require_timezone = __commonJS({\n  \"node_modules/dayjs/plugin/timezone.js\"(exports, module) {\n    !function(t, e) {\n      \"object\" == typeof exports && \"undefined\" != typeof module ? module.exports = e() : \"function\" == typeof define && define.amd ? define(e) : (t = \"undefined\" != typeof globalThis ? globalThis : t || self).dayjs_plugin_timezone = e();\n    }(exports, function() {\n      \"use strict\";\n      var t = { year: 0, month: 1, day: 2, hour: 3, minute: 4, second: 5 }, e = {};\n      return function(n, i, o) {\n        var r, a = function(t2, n2, i2) {\n          void 0 === i2 && (i2 = {});\n          var o2 = new Date(t2), r2 = function(t3, n3) {\n            void 0 === n3 && (n3 = {});\n            var i3 = n3.timeZoneName || \"short\", o3 = t3 + \"|\" + i3, r3 = e[o3];\n            return r3 || (r3 = new Intl.DateTimeFormat(\"en-US\", { hour12: false, timeZone: t3, year: \"numeric\", month: \"2-digit\", day: \"2-digit\", hour: \"2-digit\", minute: \"2-digit\", second: \"2-digit\", timeZoneName: i3 }), e[o3] = r3), r3;\n          }(n2, i2);\n          return r2.formatToParts(o2);\n        }, u = function(e2, n2) {\n          for (var i2 = a(e2, n2), r2 = [], u2 = 0; u2 < i2.length; u2 += 1) {\n            var f2 = i2[u2], s2 = f2.type, m = f2.value, c = t[s2];\n            c >= 0 && (r2[c] = parseInt(m, 10));\n          }\n          var d = r2[3], l = 24 === d ? 0 : d, h = r2[0] + \"-\" + r2[1] + \"-\" + r2[2] + \" \" + l + \":\" + r2[4] + \":\" + r2[5] + \":000\", v = +e2;\n          return (o.utc(h).valueOf() - (v -= v % 1e3)) / 6e4;\n        }, f = i.prototype;\n        f.tz = function(t2, e2) {\n          void 0 === t2 && (t2 = r);\n          var n2, i2 = this.utcOffset(), a2 = this.toDate(), u2 = a2.toLocaleString(\"en-US\", { timeZone: t2 }), f2 = Math.round((a2 - new Date(u2)) / 1e3 / 60), s2 = 15 * -Math.round(a2.getTimezoneOffset() / 15) - f2;\n          if (!Number(s2))\n            n2 = this.utcOffset(0, e2);\n          else if (n2 = o(u2, { locale: this.$L }).$set(\"millisecond\", this.$ms).utcOffset(s2, true), e2) {\n            var m = n2.utcOffset();\n            n2 = n2.add(i2 - m, \"minute\");\n          }\n          return n2.$x.$timezone = t2, n2;\n        }, f.offsetName = function(t2) {\n          var e2 = this.$x.$timezone || o.tz.guess(), n2 = a(this.valueOf(), e2, { timeZoneName: t2 }).find(function(t3) {\n            return \"timezonename\" === t3.type.toLowerCase();\n          });\n          return n2 && n2.value;\n        };\n        var s = f.startOf;\n        f.startOf = function(t2, e2) {\n          if (!this.$x || !this.$x.$timezone)\n            return s.call(this, t2, e2);\n          var n2 = o(this.format(\"YYYY-MM-DD HH:mm:ss:SSS\"), { locale: this.$L });\n          return s.call(n2, t2, e2).tz(this.$x.$timezone, true);\n        }, o.tz = function(t2, e2, n2) {\n          var i2 = n2 && e2, a2 = n2 || e2 || r, f2 = u(+o(), a2);\n          if (\"string\" != typeof t2)\n            return o(t2).tz(a2);\n          var s2 = function(t3, e3, n3) {\n            var i3 = t3 - 60 * e3 * 1e3, o2 = u(i3, n3);\n            if (e3 === o2)\n              return [i3, e3];\n            var r2 = u(i3 -= 60 * (o2 - e3) * 1e3, n3);\n            return o2 === r2 ? [i3, o2] : [t3 - 60 * Math.min(o2, r2) * 1e3, Math.max(o2, r2)];\n          }(o.utc(t2, i2).valueOf(), f2, a2), m = s2[0], c = s2[1], d = o(m).utcOffset(c);\n          return d.$x.$timezone = a2, d;\n        }, o.tz.guess = function() {\n          return Intl.DateTimeFormat().resolvedOptions().timeZone;\n        }, o.tz.setDefault = function(t2) {\n          r = t2;\n        };\n      };\n    });\n  }\n});\nexport default require_timezone();\n//# sourceMappingURL=dayjs_plugin_timezone.js.map\n",
+      "start": 1750620937892,
+      "end": 1750620937902,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:css",
+      "start": 1750620937902,
+      "end": 1750620937902,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1750620937902,
+      "end": 1750620937902,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750620937902,
+      "end": 1750620937902,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "start": 1750620937902,
+      "end": 1750620937902,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750620937902,
+      "end": 1750620937902,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1750620937902,
+      "end": 1750620937902,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750620937902,
+      "end": 1750620937902,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750620937902,
+      "end": 1750620937902,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750620937902,
+      "end": 1750620937902,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750620937902,
+      "end": 1750620937902,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1750620937902,
+      "end": 1750620937902,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import {\n  __commonJS\n} from \"/node_modules/.vite/deps/chunk-UXIASGQL.js?v=d4130fc4\";\n\n// node_modules/dayjs/plugin/timezone.js\nvar require_timezone = __commonJS({\n  \"node_modules/dayjs/plugin/timezone.js\"(exports, module) {\n    !function(t, e) {\n      \"object\" == typeof exports && \"undefined\" != typeof module ? module.exports = e() : \"function\" == typeof define && define.amd ? define(e) : (t = \"undefined\" != typeof globalThis ? globalThis : t || self).dayjs_plugin_timezone = e();\n    }(exports, function() {\n      \"use strict\";\n      var t = { year: 0, month: 1, day: 2, hour: 3, minute: 4, second: 5 }, e = {};\n      return function(n, i, o) {\n        var r, a = function(t2, n2, i2) {\n          void 0 === i2 && (i2 = {});\n          var o2 = new Date(t2), r2 = function(t3, n3) {\n            void 0 === n3 && (n3 = {});\n            var i3 = n3.timeZoneName || \"short\", o3 = t3 + \"|\" + i3, r3 = e[o3];\n            return r3 || (r3 = new Intl.DateTimeFormat(\"en-US\", { hour12: false, timeZone: t3, year: \"numeric\", month: \"2-digit\", day: \"2-digit\", hour: \"2-digit\", minute: \"2-digit\", second: \"2-digit\", timeZoneName: i3 }), e[o3] = r3), r3;\n          }(n2, i2);\n          return r2.formatToParts(o2);\n        }, u = function(e2, n2) {\n          for (var i2 = a(e2, n2), r2 = [], u2 = 0; u2 < i2.length; u2 += 1) {\n            var f2 = i2[u2], s2 = f2.type, m = f2.value, c = t[s2];\n            c >= 0 && (r2[c] = parseInt(m, 10));\n          }\n          var d = r2[3], l = 24 === d ? 0 : d, h = r2[0] + \"-\" + r2[1] + \"-\" + r2[2] + \" \" + l + \":\" + r2[4] + \":\" + r2[5] + \":000\", v = +e2;\n          return (o.utc(h).valueOf() - (v -= v % 1e3)) / 6e4;\n        }, f = i.prototype;\n        f.tz = function(t2, e2) {\n          void 0 === t2 && (t2 = r);\n          var n2, i2 = this.utcOffset(), a2 = this.toDate(), u2 = a2.toLocaleString(\"en-US\", { timeZone: t2 }), f2 = Math.round((a2 - new Date(u2)) / 1e3 / 60), s2 = 15 * -Math.round(a2.getTimezoneOffset() / 15) - f2;\n          if (!Number(s2))\n            n2 = this.utcOffset(0, e2);\n          else if (n2 = o(u2, { locale: this.$L }).$set(\"millisecond\", this.$ms).utcOffset(s2, true), e2) {\n            var m = n2.utcOffset();\n            n2 = n2.add(i2 - m, \"minute\");\n          }\n          return n2.$x.$timezone = t2, n2;\n        }, f.offsetName = function(t2) {\n          var e2 = this.$x.$timezone || o.tz.guess(), n2 = a(this.valueOf(), e2, { timeZoneName: t2 }).find(function(t3) {\n            return \"timezonename\" === t3.type.toLowerCase();\n          });\n          return n2 && n2.value;\n        };\n        var s = f.startOf;\n        f.startOf = function(t2, e2) {\n          if (!this.$x || !this.$x.$timezone)\n            return s.call(this, t2, e2);\n          var n2 = o(this.format(\"YYYY-MM-DD HH:mm:ss:SSS\"), { locale: this.$L });\n          return s.call(n2, t2, e2).tz(this.$x.$timezone, true);\n        }, o.tz = function(t2, e2, n2) {\n          var i2 = n2 && e2, a2 = n2 || e2 || r, f2 = u(+o(), a2);\n          if (\"string\" != typeof t2)\n            return o(t2).tz(a2);\n          var s2 = function(t3, e3, n3) {\n            var i3 = t3 - 60 * e3 * 1e3, o2 = u(i3, n3);\n            if (e3 === o2)\n              return [i3, e3];\n            var r2 = u(i3 -= 60 * (o2 - e3) * 1e3, n3);\n            return o2 === r2 ? [i3, o2] : [t3 - 60 * Math.min(o2, r2) * 1e3, Math.max(o2, r2)];\n          }(o.utc(t2, i2).valueOf(), f2, a2), m = s2[0], c = s2[1], d = o(m).utcOffset(c);\n          return d.$x.$timezone = a2, d;\n        }, o.tz.guess = function() {\n          return Intl.DateTimeFormat().resolvedOptions().timeZone;\n        }, o.tz.setDefault = function(t2) {\n          r = t2;\n        };\n      };\n    });\n  }\n});\nexport default require_timezone();\n//# sourceMappingURL=dayjs_plugin_timezone.js.map\n",
+      "start": 1750620937902,
+      "end": 1750620937903,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

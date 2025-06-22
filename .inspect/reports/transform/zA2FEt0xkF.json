@@ -4,32 +4,32 @@
     {
       "name": "__load__",
       "result": "/* --- main --- */\nimport { cloneElement } from \"react\";\nimport { Link, useLocation } from \"react-router-dom\";\n\n/* --- utils --- */\nimport { css } from \"@utils/css\";\n\n/* --- types --- */\nimport { SidebarItemProps } from \"./types\";\n\n/* --- styles --- */\nimport { linkActiveClass, linkClass, linkInativeClass } from \"./styles\";\n\nexport function SidebarItem({ label, icon, pathname }: SidebarItemProps) {\n    const location = useLocation();\n\n    const isCurrentPathname = location.pathname === pathname;\n\n    return (\n        <li>\n            <Link\n                to={pathname}\n                className={css(linkClass, isCurrentPathname ? linkActiveClass : linkInativeClass)}\n            >\n                {cloneElement(icon, { className: \"text-lg\" })}\n\n                <span className=\"block\">{label}</span>\n            </Link>\n        </li>\n    );\n}\n",
-      "start": 1733626360302,
-      "end": 1733626360302
+      "start": 1750620938412,
+      "end": 1750620938412
     },
     {
       "name": "vite:css",
-      "start": 1733626360302,
-      "end": 1733626360302,
+      "start": 1750620938412,
+      "end": 1750620938412,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1733626360302,
-      "end": 1733626360302,
+      "start": 1750620938412,
+      "end": 1750620938412,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1733626360302,
-      "end": 1733626360302,
+      "start": 1750620938412,
+      "end": 1750620938412,
       "order": "normal"
     },
     {
       "name": "vite:react-swc",
-      "result": "if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- main --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nvar _s = $RefreshSig$();\nimport { cloneElement } from \"react\";\nimport { Link, useLocation } from \"react-router-dom\";\n/* --- utils --- */ import { css } from \"@utils/css\";\n/* --- styles --- */ import { linkActiveClass, linkClass, linkInativeClass } from \"./styles\";\nexport function SidebarItem({ label, icon, pathname }) {\n    _s();\n    const location = useLocation();\n    const isCurrentPathname = location.pathname === pathname;\n    return /*#__PURE__*/ _jsxDEV(\"li\", {\n        children: /*#__PURE__*/ _jsxDEV(Link, {\n            to: pathname,\n            className: css(linkClass, isCurrentPathname ? linkActiveClass : linkInativeClass),\n            children: [\n                /*#__PURE__*/ cloneElement(icon, {\n                    className: \"text-lg\"\n                }),\n                /*#__PURE__*/ _jsxDEV(\"span\", {\n                    className: \"block\",\n                    children: label\n                }, void 0, false, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\",\n                    lineNumber: 27,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\",\n            lineNumber: 21,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\",\n        lineNumber: 20,\n        columnNumber: 9\n    }, this);\n}\n_s(SidebarItem, \"pkHmaVRPskBaU4tMJuJJpV42k1I=\", false, function() {\n    return [\n        useLocation\n    ];\n});\n_c = SidebarItem;\nvar _c;\n$RefreshReg$(_c, \"SidebarItem\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
-      "start": 1733626360303,
-      "end": 1733626360307,
+      "result": "import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- main --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nvar _s = $RefreshSig$();\nimport { cloneElement } from \"react\";\nimport { Link, useLocation } from \"react-router-dom\";\n/* --- utils --- */ import { css } from \"@utils/css\";\n/* --- styles --- */ import { linkActiveClass, linkClass, linkInativeClass } from \"./styles\";\nexport function SidebarItem({ label, icon, pathname }) {\n    _s();\n    const location = useLocation();\n    const isCurrentPathname = location.pathname === pathname;\n    return /*#__PURE__*/ _jsxDEV(\"li\", {\n        children: /*#__PURE__*/ _jsxDEV(Link, {\n            to: pathname,\n            className: css(linkClass, isCurrentPathname ? linkActiveClass : linkInativeClass),\n            children: [\n                /*#__PURE__*/ cloneElement(icon, {\n                    className: \"text-lg\"\n                }),\n                /*#__PURE__*/ _jsxDEV(\"span\", {\n                    className: \"block\",\n                    children: label\n                }, void 0, false, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\",\n                    lineNumber: 27,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\",\n            lineNumber: 21,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\",\n        lineNumber: 20,\n        columnNumber: 9\n    }, this);\n}\n_s(SidebarItem, \"pkHmaVRPskBaU4tMJuJJpV42k1I=\", false, function() {\n    return [\n        useLocation\n    ];\n});\n_c = SidebarItem;\nvar _c;\n$RefreshReg$(_c, \"SidebarItem\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750620938412,
+      "end": 1750620938443,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -58,56 +58,56 @@
           "className",
           "span"
         ],
-        "mappings": ";;;;;;;;AAAA,gBAAgB;;AAChB,SAASA,YAAY,QAAQ,QAAQ;AACrC,SAASC,IAAI,EAAEC,WAAW,QAAQ,mBAAmB;AAErD,iBAAiB,GACjB,SAASC,GAAG,QAAQ,aAAa;AAKjC,kBAAkB,GAClB,SAASC,eAAe,EAAEC,SAAS,EAAEC,gBAAgB,QAAQ,WAAW;AAExE,OAAO,SAASC,YAAY,EAAEC,KAAK,EAAEC,IAAI,EAAEC,QAAQ,EAAoB;;IACnE,MAAMC,WAAWT;IAEjB,MAAMU,oBAAoBD,SAASD,QAAQ,KAAKA;IAEhD,qBACI,QAACG;kBACG,cAAA,QAACZ;YACGa,IAAIJ;YACJK,WAAWZ,IAAIE,WAAWO,oBAAoBR,kBAAkBE;;8BAE/DN,aAAaS,MAAM;oBAAEM,WAAW;gBAAU;8BAE3C,QAACC;oBAAKD,WAAU;8BAASP;;;;;;;;;;;;;;;;;AAIzC;GAjBgBD;;QACKL;;;KADLK"
+        "mappings": ";;;;;;;;;;;;;;;;;;;AAAA,gBAAgB;;AAChB,SAASA,YAAY,QAAQ,QAAQ;AACrC,SAASC,IAAI,EAAEC,WAAW,QAAQ,mBAAmB;AAErD,iBAAiB,GACjB,SAASC,GAAG,QAAQ,aAAa;AAKjC,kBAAkB,GAClB,SAASC,eAAe,EAAEC,SAAS,EAAEC,gBAAgB,QAAQ,WAAW;AAExE,OAAO,SAASC,YAAY,EAAEC,KAAK,EAAEC,IAAI,EAAEC,QAAQ,EAAoB;;IACnE,MAAMC,WAAWT;IAEjB,MAAMU,oBAAoBD,SAASD,QAAQ,KAAKA;IAEhD,qBACI,QAACG;kBACG,cAAA,QAACZ;YACGa,IAAIJ;YACJK,WAAWZ,IAAIE,WAAWO,oBAAoBR,kBAAkBE;;8BAE/DN,aAAaS,MAAM;oBAAEM,WAAW;gBAAU;8BAE3C,QAACC;oBAAKD,WAAU;8BAASP;;;;;;;;;;;;;;;;;AAIzC;GAjBgBD;;QACKL;;;KADLK"
       }
     },
     {
       "name": "vite:define",
-      "start": 1733626360307,
-      "end": 1733626360307,
+      "start": 1750620938443,
+      "end": 1750620938443,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1733626360307,
-      "end": 1733626360307,
+      "start": 1750620938443,
+      "end": 1750620938443,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1733626360307,
-      "end": 1733626360307,
+      "start": 1750620938443,
+      "end": 1750620938443,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1733626360307,
-      "end": 1733626360307,
+      "start": 1750620938443,
+      "end": 1750620938443,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1733626360307,
-      "end": 1733626360307,
+      "start": 1750620938443,
+      "end": 1750620938443,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1733626360307,
-      "end": 1733626360307,
+      "start": 1750620938443,
+      "end": 1750620938443,
       "order": "normal"
     },
     {
       "name": "vite:client-inject",
-      "start": 1733626360307,
-      "end": 1733626360307,
+      "start": 1750620938443,
+      "end": 1750620938443,
       "order": "normal"
     },
     {
       "name": "vite:import-analysis",
-      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/atoms/SidebarItem/index.tsx\");if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- main --- */ import __vite__cjsImport1_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c12ee5d5\"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime[\"jsxDEV\"];\nvar _s = $RefreshSig$();\nimport __vite__cjsImport2_react from \"/node_modules/.vite/deps/react.js?v=dcff9708\"; const cloneElement = __vite__cjsImport2_react[\"cloneElement\"];\nimport { Link, useLocation } from \"/node_modules/.vite/deps/react-router-dom.js?v=cb9648e4\";\n/* --- utils --- */ import { css } from \"/src/utils/css.ts\";\n/* --- styles --- */ import { linkActiveClass, linkClass, linkInativeClass } from \"/src/components/atoms/SidebarItem/styles.ts\";\nexport function SidebarItem({ label, icon, pathname }) {\n    _s();\n    const location = useLocation();\n    const isCurrentPathname = location.pathname === pathname;\n    return /*#__PURE__*/ _jsxDEV(\"li\", {\n        children: /*#__PURE__*/ _jsxDEV(Link, {\n            to: pathname,\n            className: css(linkClass, isCurrentPathname ? linkActiveClass : linkInativeClass),\n            children: [\n                /*#__PURE__*/ cloneElement(icon, {\n                    className: \"text-lg\"\n                }),\n                /*#__PURE__*/ _jsxDEV(\"span\", {\n                    className: \"block\",\n                    children: label\n                }, void 0, false, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\",\n                    lineNumber: 27,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\",\n            lineNumber: 21,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\",\n        lineNumber: 20,\n        columnNumber: 9\n    }, this);\n}\n_s(SidebarItem, \"pkHmaVRPskBaU4tMJuJJpV42k1I=\", false, function() {\n    return [\n        useLocation\n    ];\n});\n_c = SidebarItem;\nvar _c;\n$RefreshReg$(_c, \"SidebarItem\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
-      "start": 1733626360307,
-      "end": 1733626360311,
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/atoms/SidebarItem/index.tsx\");import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- main --- */ import __vite__cjsImport2_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4130fc4\"; const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime[\"jsxDEV\"];\nvar _s = $RefreshSig$();\nimport __vite__cjsImport3_react from \"/node_modules/.vite/deps/react.js?v=d4130fc4\"; const cloneElement = __vite__cjsImport3_react[\"cloneElement\"];\nimport { Link, useLocation } from \"/node_modules/.vite/deps/react-router-dom.js?v=d4130fc4\";\n/* --- utils --- */ import { css } from \"/src/utils/css.ts\";\n/* --- styles --- */ import { linkActiveClass, linkClass, linkInativeClass } from \"/src/components/atoms/SidebarItem/styles.ts\";\nexport function SidebarItem({ label, icon, pathname }) {\n    _s();\n    const location = useLocation();\n    const isCurrentPathname = location.pathname === pathname;\n    return /*#__PURE__*/ _jsxDEV(\"li\", {\n        children: /*#__PURE__*/ _jsxDEV(Link, {\n            to: pathname,\n            className: css(linkClass, isCurrentPathname ? linkActiveClass : linkInativeClass),\n            children: [\n                /*#__PURE__*/ cloneElement(icon, {\n                    className: \"text-lg\"\n                }),\n                /*#__PURE__*/ _jsxDEV(\"span\", {\n                    className: \"block\",\n                    children: label\n                }, void 0, false, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\",\n                    lineNumber: 27,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\",\n            lineNumber: 21,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\",\n        lineNumber: 20,\n        columnNumber: 9\n    }, this);\n}\n_s(SidebarItem, \"pkHmaVRPskBaU4tMJuJJpV42k1I=\", false, function() {\n    return [\n        useLocation\n    ];\n});\n_c = SidebarItem;\nvar _c;\n$RefreshReg$(_c, \"SidebarItem\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/SidebarItem/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750620938443,
+      "end": 1750620938444,
       "order": "normal",
       "sourcemaps": null
     }

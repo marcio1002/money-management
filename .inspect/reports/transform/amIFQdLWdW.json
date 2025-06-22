@@ -4,32 +4,32 @@
     {
       "name": "__load__",
       "result": "/* --- libs --- */\nimport { ToastContainer } from 'react-toastify';\nimport { Outlet } from 'react-router-dom';\n\n/* --- components --- */\nimport { Sidebar } from '@components/organisms/Sidebar';\nimport { ButtonToggleTheme } from '@components/atoms/ButtonToggleTheme';\n\n/* --- providers --- */\nimport { ThemeProvider } from 'providers/ThemeProvider';\n\nexport default function App() {\n  return (\n    <>\n      <ThemeProvider>\n        <div className='w-full flex'>\n          <Sidebar />\n\n          <div className='grow'>\n            <Outlet />\n          </div>\n\n          <ButtonToggleTheme />\n        </div>\n      </ThemeProvider>\n\n      <ToastContainer position='top-right' />\n    </>\n  )\n}\n",
-      "start": 1733627044440,
-      "end": 1733627044440
+      "start": 1750620937918,
+      "end": 1750620937918
     },
     {
       "name": "vite:css",
-      "start": 1733627044440,
-      "end": 1733627044440,
+      "start": 1750620937918,
+      "end": 1750620937918,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1733627044440,
-      "end": 1733627044440,
+      "start": 1750620937918,
+      "end": 1750620937918,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1733627044440,
-      "end": 1733627044440,
+      "start": 1750620937918,
+      "end": 1750620937918,
       "order": "normal"
     },
     {
       "name": "vite:react-swc",
-      "result": "if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/App.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- libs --- */ import { jsxDEV as _jsxDEV, Fragment as _Fragment } from \"react/jsx-dev-runtime\";\nimport { ToastContainer } from 'react-toastify';\nimport { Outlet } from 'react-router-dom';\n/* --- components --- */ import { Sidebar } from '@components/organisms/Sidebar';\nimport { ButtonToggleTheme } from '@components/atoms/ButtonToggleTheme';\n/* --- providers --- */ import { ThemeProvider } from 'providers/ThemeProvider';\nexport default function App() {\n    return /*#__PURE__*/ _jsxDEV(_Fragment, {\n        children: [\n            /*#__PURE__*/ _jsxDEV(ThemeProvider, {\n                children: /*#__PURE__*/ _jsxDEV(\"div\", {\n                    className: \"w-full flex\",\n                    children: [\n                        /*#__PURE__*/ _jsxDEV(Sidebar, {}, void 0, false, {\n                            fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                            lineNumber: 17,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ _jsxDEV(\"div\", {\n                            className: \"grow\",\n                            children: /*#__PURE__*/ _jsxDEV(Outlet, {}, void 0, false, {\n                                fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                                lineNumber: 20,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                            lineNumber: 19,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ _jsxDEV(ButtonToggleTheme, {}, void 0, false, {\n                            fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                            lineNumber: 23,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                    lineNumber: 16,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ _jsxDEV(ToastContainer, {\n                position: \"top-right\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                lineNumber: 27,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n_c = App;\nvar _c;\n$RefreshReg$(_c, \"App\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/App.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/App.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
-      "start": 1733627044440,
-      "end": 1733627044442,
+      "result": "import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/App.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- libs --- */ import { jsxDEV as _jsxDEV, Fragment as _Fragment } from \"react/jsx-dev-runtime\";\nimport { ToastContainer } from 'react-toastify';\nimport { Outlet } from 'react-router-dom';\n/* --- components --- */ import { Sidebar } from '@components/organisms/Sidebar';\nimport { ButtonToggleTheme } from '@components/atoms/ButtonToggleTheme';\n/* --- providers --- */ import { ThemeProvider } from 'providers/ThemeProvider';\nexport default function App() {\n    return /*#__PURE__*/ _jsxDEV(_Fragment, {\n        children: [\n            /*#__PURE__*/ _jsxDEV(ThemeProvider, {\n                children: /*#__PURE__*/ _jsxDEV(\"div\", {\n                    className: \"w-full flex\",\n                    children: [\n                        /*#__PURE__*/ _jsxDEV(Sidebar, {}, void 0, false, {\n                            fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                            lineNumber: 17,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ _jsxDEV(\"div\", {\n                            className: \"grow\",\n                            children: /*#__PURE__*/ _jsxDEV(Outlet, {}, void 0, false, {\n                                fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                                lineNumber: 20,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                            lineNumber: 19,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ _jsxDEV(ButtonToggleTheme, {}, void 0, false, {\n                            fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                            lineNumber: 23,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                    lineNumber: 16,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ _jsxDEV(ToastContainer, {\n                position: \"top-right\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                lineNumber: 27,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n_c = App;\nvar _c;\n$RefreshReg$(_c, \"App\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/App.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/App.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750620937918,
+      "end": 1750620938204,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -50,56 +50,56 @@
           "className",
           "position"
         ],
-        "mappings": ";;;;;;;;AAAA,gBAAgB;AAChB,SAASA,cAAc,QAAQ,iBAAiB;AAChD,SAASC,MAAM,QAAQ,mBAAmB;AAE1C,sBAAsB,GACtB,SAASC,OAAO,QAAQ,gCAAgC;AACxD,SAASC,iBAAiB,QAAQ,sCAAsC;AAExE,qBAAqB,GACrB,SAASC,aAAa,QAAQ,0BAA0B;AAExD,eAAe,SAASC;IACtB,qBACE;;0BACE,QAACD;0BACC,cAAA,QAACE;oBAAIC,WAAU;;sCACb,QAACL;;;;;sCAED,QAACI;4BAAIC,WAAU;sCACb,cAAA,QAACN;;;;;;;;;;sCAGH,QAACE;;;;;;;;;;;;;;;;0BAIL,QAACH;gBAAeQ,UAAS;;;;;;;;AAG/B;KAlBwBH"
+        "mappings": ";;;;;;;;;;;;;;;;;;;AAAA,gBAAgB;AAChB,SAASA,cAAc,QAAQ,iBAAiB;AAChD,SAASC,MAAM,QAAQ,mBAAmB;AAE1C,sBAAsB,GACtB,SAASC,OAAO,QAAQ,gCAAgC;AACxD,SAASC,iBAAiB,QAAQ,sCAAsC;AAExE,qBAAqB,GACrB,SAASC,aAAa,QAAQ,0BAA0B;AAExD,eAAe,SAASC;IACtB,qBACE;;0BACE,QAACD;0BACC,cAAA,QAACE;oBAAIC,WAAU;;sCACb,QAACL;;;;;sCAED,QAACI;4BAAIC,WAAU;sCACb,cAAA,QAACN;;;;;;;;;;sCAGH,QAACE;;;;;;;;;;;;;;;;0BAIL,QAACH;gBAAeQ,UAAS;;;;;;;;AAG/B;KAlBwBH"
       }
     },
     {
       "name": "vite:define",
-      "start": 1733627044442,
-      "end": 1733627044442,
+      "start": 1750620938204,
+      "end": 1750620938204,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1733627044442,
-      "end": 1733627044442,
+      "start": 1750620938204,
+      "end": 1750620938204,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1733627044442,
-      "end": 1733627044442,
+      "start": 1750620938204,
+      "end": 1750620938204,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1733627044442,
-      "end": 1733627044442,
+      "start": 1750620938204,
+      "end": 1750620938204,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1733627044442,
-      "end": 1733627044442,
+      "start": 1750620938204,
+      "end": 1750620938204,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1733627044442,
-      "end": 1733627044442,
+      "start": 1750620938204,
+      "end": 1750620938204,
       "order": "normal"
     },
     {
       "name": "vite:client-inject",
-      "start": 1733627044442,
-      "end": 1733627044442,
+      "start": 1750620938204,
+      "end": 1750620938204,
       "order": "normal"
     },
     {
       "name": "vite:import-analysis",
-      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/App.tsx\");if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/App.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- libs --- */ import __vite__cjsImport1_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c12ee5d5\"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime[\"jsxDEV\"]; const _Fragment = __vite__cjsImport1_react_jsxDevRuntime[\"Fragment\"];\nimport { ToastContainer } from \"/node_modules/.vite/deps/react-toastify.js?v=1f8a8a3f\";\nimport { Outlet } from \"/node_modules/.vite/deps/react-router-dom.js?v=cb9648e4\";\n/* --- components --- */ import { Sidebar } from \"/src/components/organisms/Sidebar/index.tsx?t=1733626447099\";\nimport { ButtonToggleTheme } from \"/src/components/atoms/ButtonToggleTheme/index.tsx\";\n/* --- providers --- */ import { ThemeProvider } from \"/src/providers/ThemeProvider/index.tsx\";\nexport default function App() {\n    return /*#__PURE__*/ _jsxDEV(_Fragment, {\n        children: [\n            /*#__PURE__*/ _jsxDEV(ThemeProvider, {\n                children: /*#__PURE__*/ _jsxDEV(\"div\", {\n                    className: \"w-full flex\",\n                    children: [\n                        /*#__PURE__*/ _jsxDEV(Sidebar, {}, void 0, false, {\n                            fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                            lineNumber: 17,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ _jsxDEV(\"div\", {\n                            className: \"grow\",\n                            children: /*#__PURE__*/ _jsxDEV(Outlet, {}, void 0, false, {\n                                fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                                lineNumber: 20,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                            lineNumber: 19,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ _jsxDEV(ButtonToggleTheme, {}, void 0, false, {\n                            fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                            lineNumber: 23,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                    lineNumber: 16,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ _jsxDEV(ToastContainer, {\n                position: \"top-right\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                lineNumber: 27,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n_c = App;\nvar _c;\n$RefreshReg$(_c, \"App\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/App.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/App.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
-      "start": 1733627044442,
-      "end": 1733627044444,
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/App.tsx\");import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/App.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- libs --- */ import __vite__cjsImport2_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4130fc4\"; const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime[\"jsxDEV\"]; const _Fragment = __vite__cjsImport2_react_jsxDevRuntime[\"Fragment\"];\nimport { ToastContainer } from \"/node_modules/.vite/deps/react-toastify.js?v=d4130fc4\";\nimport { Outlet } from \"/node_modules/.vite/deps/react-router-dom.js?v=d4130fc4\";\n/* --- components --- */ import { Sidebar } from \"/src/components/organisms/Sidebar/index.tsx\";\nimport { ButtonToggleTheme } from \"/src/components/atoms/ButtonToggleTheme/index.tsx\";\n/* --- providers --- */ import { ThemeProvider } from \"/src/providers/ThemeProvider/index.tsx\";\nexport default function App() {\n    return /*#__PURE__*/ _jsxDEV(_Fragment, {\n        children: [\n            /*#__PURE__*/ _jsxDEV(ThemeProvider, {\n                children: /*#__PURE__*/ _jsxDEV(\"div\", {\n                    className: \"w-full flex\",\n                    children: [\n                        /*#__PURE__*/ _jsxDEV(Sidebar, {}, void 0, false, {\n                            fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                            lineNumber: 17,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ _jsxDEV(\"div\", {\n                            className: \"grow\",\n                            children: /*#__PURE__*/ _jsxDEV(Outlet, {}, void 0, false, {\n                                fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                                lineNumber: 20,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                            lineNumber: 19,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ _jsxDEV(ButtonToggleTheme, {}, void 0, false, {\n                            fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                            lineNumber: 23,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                    lineNumber: 16,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ _jsxDEV(ToastContainer, {\n                position: \"top-right\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/App.tsx\",\n                lineNumber: 27,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n_c = App;\nvar _c;\n$RefreshReg$(_c, \"App\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/App.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/App.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750620938204,
+      "end": 1750620938207,
       "order": "normal",
       "sourcemaps": null
     }

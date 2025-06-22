@@ -3,83 +3,159 @@
   "transforms": [
     {
       "name": "__load__",
-      "result": "export function formatPrice(value: string | number): string {\n    return parseFloat(String(value)).toLocaleString(\"pt-BR\", { style: \"currency\", currency: \"BRL\" });\n}\n",
-      "start": 1733614384832,
-      "end": 1733614384832
+      "result": "/**\n * Helper para formatar valores monetários\n * @param value \n * @returns \n * \n * @example\n * formatPrice(1000) // R$ 1.000,00\n * formatPrice(100.50) // R$ 100,50\n * formatPrice(2450.99) // R$ 2.450,99\n */\nexport function formatPrice(value: string | number): string {\n    return parseFloat(String(value)).toLocaleString(\"pt-BR\", { style: \"currency\", currency: \"BRL\" });\n}\n\n\nexport function formatPriceToNumber(value: string): number {\n    if (!value) return 0;\n\n    const numberValue = value.replace(\"R$\", \"\").replace(/[.]+/g, \"\").replace(/[,]/, \".\");\n\n    return Number(numberValue);\n}",
+      "start": 1750621147019,
+      "end": 1750621147019
     },
     {
       "name": "vite:css",
-      "start": 1733614384832,
-      "end": 1733614384832,
+      "start": 1750621147019,
+      "end": 1750621147019,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1733614384832,
-      "end": 1733614384832,
+      "start": 1750621147020,
+      "end": 1750621147020,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1733614384832,
-      "end": 1733614384832,
+      "start": 1750621147020,
+      "end": 1750621147020,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css",
+      "start": 1750621147020,
+      "end": 1750621147020,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1750621147020,
+      "end": 1750621147020,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750621147020,
+      "end": 1750621147020,
       "order": "normal"
     },
     {
       "name": "vite:react-swc",
-      "result": "export function formatPrice(value) {\n    return parseFloat(String(value)).toLocaleString(\"pt-BR\", {\n        style: \"currency\",\n        currency: \"BRL\"\n    });\n}\n",
-      "start": 1733614384832,
-      "end": 1733614384836,
+      "result": "/**\n * Helper para formatar valores monetários\n * @param value \n * @returns \n * \n * @example\n * formatPrice(1000) // R$ 1.000,00\n * formatPrice(100.50) // R$ 100,50\n * formatPrice(2450.99) // R$ 2.450,99\n */ export function formatPrice(value) {\n    return parseFloat(String(value)).toLocaleString(\"pt-BR\", {\n        style: \"currency\",\n        currency: \"BRL\"\n    });\n}\nexport function formatPriceToNumber(value) {\n    if (!value) return 0;\n    const numberValue = value.replace(\"R$\", \"\").replace(/[.]+/g, \"\").replace(/[,]/, \".\");\n    return Number(numberValue);\n}\n",
+      "start": 1750621147020,
+      "end": 1750621147020,
       "order": "normal",
-      "sourcemaps": "{\"version\":3,\"sources\":[\"/home/marcio/Documentos/projetos/money-management/src/utils/formatPrice.ts\"],\"sourcesContent\":[\"export function formatPrice(value: string | number): string {\\n    return parseFloat(String(value)).toLocaleString(\\\"pt-BR\\\", { style: \\\"currency\\\", currency: \\\"BRL\\\" });\\n}\\n\"],\"names\":[\"formatPrice\",\"value\",\"parseFloat\",\"String\",\"toLocaleString\",\"style\",\"currency\"],\"mappings\":\"AAAA,OAAO,SAASA,YAAYC,KAAsB;IAC9C,OAAOC,WAAWC,OAAOF,QAAQG,cAAc,CAAC,SAAS;QAAEC,OAAO;QAAYC,UAAU;IAAM;AAClG\"}"
+      "sourcemaps": "{\"version\":3,\"sources\":[\"/home/marcio/Documentos/projetos/money-management/src/utils/formatPrice.ts\"],\"sourcesContent\":[\"/**\\n * Helper para formatar valores monetários\\n * @param value \\n * @returns \\n * \\n * @example\\n * formatPrice(1000) // R$ 1.000,00\\n * formatPrice(100.50) // R$ 100,50\\n * formatPrice(2450.99) // R$ 2.450,99\\n */\\nexport function formatPrice(value: string | number): string {\\n    return parseFloat(String(value)).toLocaleString(\\\"pt-BR\\\", { style: \\\"currency\\\", currency: \\\"BRL\\\" });\\n}\\n\\n\\nexport function formatPriceToNumber(value: string): number {\\n    if (!value) return 0;\\n\\n    const numberValue = value.replace(\\\"R$\\\", \\\"\\\").replace(/[.]+/g, \\\"\\\").replace(/[,]/, \\\".\\\");\\n\\n    return Number(numberValue);\\n}\"],\"names\":[\"formatPrice\",\"value\",\"parseFloat\",\"String\",\"toLocaleString\",\"style\",\"currency\",\"formatPriceToNumber\",\"numberValue\",\"replace\",\"Number\"],\"mappings\":\"AAAA;;;;;;;;;CASC,GACD,OAAO,SAASA,YAAYC,KAAsB;IAC9C,OAAOC,WAAWC,OAAOF,QAAQG,cAAc,CAAC,SAAS;QAAEC,OAAO;QAAYC,UAAU;IAAM;AAClG;AAGA,OAAO,SAASC,oBAAoBN,KAAa;IAC7C,IAAI,CAACA,OAAO,OAAO;IAEnB,MAAMO,cAAcP,MAAMQ,OAAO,CAAC,MAAM,IAAIA,OAAO,CAAC,SAAS,IAAIA,OAAO,CAAC,OAAO;IAEhF,OAAOC,OAAOF;AAClB\"}"
     },
     {
       "name": "vite:define",
-      "start": 1733614384836,
-      "end": 1733614384836,
+      "start": 1750621147020,
+      "end": 1750621147020,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1733614384836,
-      "end": 1733614384836,
+      "start": 1750621147020,
+      "end": 1750621147020,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1733614384836,
-      "end": 1733614384836,
+      "start": 1750621147020,
+      "end": 1750621147020,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1733614384836,
-      "end": 1733614384836,
+      "start": 1750621147020,
+      "end": 1750621147020,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1733614384836,
-      "end": 1733614384836,
+      "start": 1750621147020,
+      "end": 1750621147020,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1733614384836,
-      "end": 1733614384836,
+      "start": 1750621147020,
+      "end": 1750621147020,
       "order": "normal"
     },
     {
       "name": "vite:client-inject",
-      "start": 1733614384836,
-      "end": 1733614384836,
+      "start": 1750621147020,
+      "end": 1750621147020,
       "order": "normal"
     },
     {
       "name": "vite:import-analysis",
-      "result": "export function formatPrice(value) {\n    return parseFloat(String(value)).toLocaleString(\"pt-BR\", {\n        style: \"currency\",\n        currency: \"BRL\"\n    });\n}\n",
-      "start": 1733614384836,
-      "end": 1733614384836,
+      "result": "/**\n * Helper para formatar valores monetários\n * @param value \n * @returns \n * \n * @example\n * formatPrice(1000) // R$ 1.000,00\n * formatPrice(100.50) // R$ 100,50\n * formatPrice(2450.99) // R$ 2.450,99\n */ export function formatPrice(value) {\n    return parseFloat(String(value)).toLocaleString(\"pt-BR\", {\n        style: \"currency\",\n        currency: \"BRL\"\n    });\n}\nexport function formatPriceToNumber(value) {\n    if (!value) return 0;\n    const numberValue = value.replace(\"R$\", \"\").replace(/[.]+/g, \"\").replace(/[,]/, \".\");\n    return Number(numberValue);\n}\n",
+      "start": 1750621147020,
+      "end": 1750621147020,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "/**\n * Helper para formatar valores monetários\n * @param value \n * @returns \n * \n * @example\n * formatPrice(1000) // R$ 1.000,00\n * formatPrice(100.50) // R$ 100,50\n * formatPrice(2450.99) // R$ 2.450,99\n */ export function formatPrice(value) {\n    return parseFloat(String(value)).toLocaleString(\"pt-BR\", {\n        style: \"currency\",\n        currency: \"BRL\"\n    });\n}\nexport function formatPriceToNumber(value) {\n    if (!value) return 0;\n    const numberValue = value.replace(\"R$\", \"\").replace(/[.]+/g, \"\").replace(/[,]/, \".\");\n    return Number(numberValue);\n}\n",
+      "start": 1750621147020,
+      "end": 1750621147020,
+      "order": "normal",
+      "sourcemaps": "{\"version\":3,\"sources\":[\"/home/marcio/Documentos/projetos/money-management/src/utils/formatPrice.ts\"],\"sourcesContent\":[\"/**\\n * Helper para formatar valores monetários\\n * @param value \\n * @returns \\n * \\n * @example\\n * formatPrice(1000) // R$ 1.000,00\\n * formatPrice(100.50) // R$ 100,50\\n * formatPrice(2450.99) // R$ 2.450,99\\n */\\nexport function formatPrice(value: string | number): string {\\n    return parseFloat(String(value)).toLocaleString(\\\"pt-BR\\\", { style: \\\"currency\\\", currency: \\\"BRL\\\" });\\n}\\n\\n\\nexport function formatPriceToNumber(value: string): number {\\n    if (!value) return 0;\\n\\n    const numberValue = value.replace(\\\"R$\\\", \\\"\\\").replace(/[.]+/g, \\\"\\\").replace(/[,]/, \\\".\\\");\\n\\n    return Number(numberValue);\\n}\"],\"names\":[\"formatPrice\",\"value\",\"parseFloat\",\"String\",\"toLocaleString\",\"style\",\"currency\",\"formatPriceToNumber\",\"numberValue\",\"replace\",\"Number\"],\"mappings\":\"AAAA;;;;;;;;;CASC,GACD,OAAO,SAASA,YAAYC,KAAsB;IAC9C,OAAOC,WAAWC,OAAOF,QAAQG,cAAc,CAAC,SAAS;QAAEC,OAAO;QAAYC,UAAU;IAAM;AAClG;AAGA,OAAO,SAASC,oBAAoBN,KAAa;IAC7C,IAAI,CAACA,OAAO,OAAO;IAEnB,MAAMO,cAAcP,MAAMQ,OAAO,CAAC,MAAM,IAAIA,OAAO,CAAC,SAAS,IAAIA,OAAO,CAAC,OAAO;IAEhF,OAAOC,OAAOF;AAClB\"}"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750621147020,
+      "end": 1750621147020,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1750621147020,
+      "end": 1750621147020,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750621147020,
+      "end": 1750621147020,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750621147020,
+      "end": 1750621147020,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750621147020,
+      "end": 1750621147020,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750621147020,
+      "end": 1750621147020,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1750621147020,
+      "end": 1750621147020,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "/**\n * Helper para formatar valores monetários\n * @param value \n * @returns \n * \n * @example\n * formatPrice(1000) // R$ 1.000,00\n * formatPrice(100.50) // R$ 100,50\n * formatPrice(2450.99) // R$ 2.450,99\n */ export function formatPrice(value) {\n    return parseFloat(String(value)).toLocaleString(\"pt-BR\", {\n        style: \"currency\",\n        currency: \"BRL\"\n    });\n}\nexport function formatPriceToNumber(value) {\n    if (!value) return 0;\n    const numberValue = value.replace(\"R$\", \"\").replace(/[.]+/g, \"\").replace(/[,]/, \".\");\n    return Number(numberValue);\n}\n",
+      "start": 1750621147020,
+      "end": 1750621147020,
       "order": "normal",
       "sourcemaps": null
     }

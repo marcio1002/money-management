@@ -1,3 +1,1 @@
-import { InputHTMLAttributes } from "react";
-
-export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {}
+export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> { }

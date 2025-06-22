@@ -1,0 +1,87 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/styles.ts",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "/* --- utils --- */\nimport { css } from \"@utils/css\";\n\nexport const autocompleteClass = css`\n    w-full\n    relative\n`;\n\nexport const inputClass = css`\n    w-full\n    p-2\n    border-2\n    border-green-400\n    focus:border-orange-400\n    focus-visible:border-orange-400\n    focus-visible:outline-0\n    text-md\n    text-black\n    rounded-md\n`;\n\nexport const listClass = css`\n    flex\n    flex-col\n    gap-1\n    w-full\n    h-[250px]\n\n    absolute\n    z-10\n    overflow-x-hidden\n    overflow-y-auto\n    bg-white\n    shadow-lg\n    dark:shadow-slate-100\n`;\n\nexport const listItemClass = css`\n\n`;",
+      "start": 1750631592917,
+      "end": 1750631592917
+    },
+    {
+      "name": "vite:css",
+      "start": 1750631592917,
+      "end": 1750631592917,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1750631592917,
+      "end": 1750631592917,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750631592917,
+      "end": 1750631592917,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "/* --- utils --- */ import { css } from \"@utils/css\";\nexport const autocompleteClass = css`\n    w-full\n    relative\n`;\nexport const inputClass = css`\n    w-full\n    p-2\n    border-2\n    border-green-400\n    focus:border-orange-400\n    focus-visible:border-orange-400\n    focus-visible:outline-0\n    text-md\n    text-black\n    rounded-md\n`;\nexport const listClass = css`\n    flex\n    flex-col\n    gap-1\n    w-full\n    h-[250px]\n\n    absolute\n    z-10\n    overflow-x-hidden\n    overflow-y-auto\n    bg-white\n    shadow-lg\n    dark:shadow-slate-100\n`;\nexport const listItemClass = css`\n\n`;\n",
+      "start": 1750631592917,
+      "end": 1750631592918,
+      "order": "normal",
+      "sourcemaps": "{\"version\":3,\"sources\":[\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/styles.ts\"],\"sourcesContent\":[\"/* --- utils --- */\\nimport { css } from \\\"@utils/css\\\";\\n\\nexport const autocompleteClass = css`\\n    w-full\\n    relative\\n`;\\n\\nexport const inputClass = css`\\n    w-full\\n    p-2\\n    border-2\\n    border-green-400\\n    focus:border-orange-400\\n    focus-visible:border-orange-400\\n    focus-visible:outline-0\\n    text-md\\n    text-black\\n    rounded-md\\n`;\\n\\nexport const listClass = css`\\n    flex\\n    flex-col\\n    gap-1\\n    w-full\\n    h-[250px]\\n\\n    absolute\\n    z-10\\n    overflow-x-hidden\\n    overflow-y-auto\\n    bg-white\\n    shadow-lg\\n    dark:shadow-slate-100\\n`;\\n\\nexport const listItemClass = css`\\n\\n`;\"],\"names\":[\"css\",\"autocompleteClass\",\"inputClass\",\"listClass\",\"listItemClass\"],\"mappings\":\"AAAA,iBAAiB,GACjB,SAASA,GAAG,QAAQ,aAAa;AAEjC,OAAO,MAAMC,oBAAoBD,GAAG,CAAC;;;AAGrC,CAAC,CAAC;AAEF,OAAO,MAAME,aAAaF,GAAG,CAAC;;;;;;;;;;;AAW9B,CAAC,CAAC;AAEF,OAAO,MAAMG,YAAYH,GAAG,CAAC;;;;;;;;;;;;;;AAc7B,CAAC,CAAC;AAEF,OAAO,MAAMI,gBAAgBJ,GAAG,CAAC;;AAEjC,CAAC,CAAC\"}"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750631592918,
+      "end": 1750631592918,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1750631592918,
+      "end": 1750631592918,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750631592918,
+      "end": 1750631592918,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750631592918,
+      "end": 1750631592918,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750631592918,
+      "end": 1750631592918,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750631592918,
+      "end": 1750631592918,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1750631592918,
+      "end": 1750631592918,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "/* --- utils --- */ import { css } from \"/src/utils/css.ts\";\nexport const autocompleteClass = css`\n    w-full\n    relative\n`;\nexport const inputClass = css`\n    w-full\n    p-2\n    border-2\n    border-green-400\n    focus:border-orange-400\n    focus-visible:border-orange-400\n    focus-visible:outline-0\n    text-md\n    text-black\n    rounded-md\n`;\nexport const listClass = css`\n    flex\n    flex-col\n    gap-1\n    w-full\n    h-[250px]\n\n    absolute\n    z-10\n    overflow-x-hidden\n    overflow-y-auto\n    bg-white\n    shadow-lg\n    dark:shadow-slate-100\n`;\nexport const listItemClass = css`\n\n`;\n",
+      "start": 1750631592918,
+      "end": 1750631592919,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

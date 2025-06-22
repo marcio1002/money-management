@@ -1,0 +1,110 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "\n/* --- utils --- */\nimport { css } from '@utils/css';\n\n/* --- styles --- */\nimport { autocompleteClass, inputClass, listClass, listItemClass } from './styles';\n\n/* --- types --- */\nimport { AutocompleteProps } from './types';\n\nexport function Autocomplete({ }: AutocompleteProps) {\n    return (\n        <div className={css(autocompleteClass)}>\n            <input\n                type=\"text\"\n                className={css(inputClass)}\n            />\n\n            <ul className={css(listClass)}>\n                <li className={css(listItemClass)}>Sugestão 1</li>\n                <li className={css(listItemClass)}>Sugestão 2</li>\n                <li className={css(listItemClass)}>Sugestão 3</li>\n                <li className={css(listItemClass)}>Sugestão 4</li>\n                <li className={css(listItemClass)}>Sugestão 5</li>\n            </ul>\n        </div>\n    )\n}",
+      "start": 1750631592831,
+      "end": 1750631592831
+    },
+    {
+      "name": "vite:css",
+      "start": 1750631592831,
+      "end": 1750631592831,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1750631592831,
+      "end": 1750631592831,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750631592831,
+      "end": 1750631592831,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "result": "import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- utils --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nimport { css } from '@utils/css';\n/* --- styles --- */ import { autocompleteClass, inputClass, listClass, listItemClass } from './styles';\nexport function Autocomplete({}) {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: css(autocompleteClass),\n        children: [\n            /*#__PURE__*/ _jsxDEV(\"input\", {\n                type: \"text\",\n                className: css(inputClass)\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                lineNumber: 14,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ _jsxDEV(\"ul\", {\n                className: css(listClass),\n                children: [\n                    /*#__PURE__*/ _jsxDEV(\"li\", {\n                        className: css(listItemClass),\n                        children: \"Sugestão 1\"\n                    }, void 0, false, {\n                        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                        lineNumber: 20,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ _jsxDEV(\"li\", {\n                        className: css(listItemClass),\n                        children: \"Sugestão 2\"\n                    }, void 0, false, {\n                        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                        lineNumber: 21,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ _jsxDEV(\"li\", {\n                        className: css(listItemClass),\n                        children: \"Sugestão 3\"\n                    }, void 0, false, {\n                        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                        lineNumber: 22,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ _jsxDEV(\"li\", {\n                        className: css(listItemClass),\n                        children: \"Sugestão 4\"\n                    }, void 0, false, {\n                        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                        lineNumber: 23,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ _jsxDEV(\"li\", {\n                        className: css(listItemClass),\n                        children: \"Sugestão 5\"\n                    }, void 0, false, {\n                        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                        lineNumber: 24,\n                        columnNumber: 17\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                lineNumber: 19,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n        lineNumber: 13,\n        columnNumber: 9\n    }, this);\n}\n_c = Autocomplete;\nvar _c;\n$RefreshReg$(_c, \"Autocomplete\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750631592831,
+      "end": 1750631592872,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "index.tsx"
+        ],
+        "sourcesContent": [
+          "\n/* --- utils --- */\nimport { css } from '@utils/css';\n\n/* --- styles --- */\nimport { autocompleteClass, inputClass, listClass, listItemClass } from './styles';\n\n/* --- types --- */\nimport { AutocompleteProps } from './types';\n\nexport function Autocomplete({ }: AutocompleteProps) {\n    return (\n        <div className={css(autocompleteClass)}>\n            <input\n                type=\"text\"\n                className={css(inputClass)}\n            />\n\n            <ul className={css(listClass)}>\n                <li className={css(listItemClass)}>Sugestão 1</li>\n                <li className={css(listItemClass)}>Sugestão 2</li>\n                <li className={css(listItemClass)}>Sugestão 3</li>\n                <li className={css(listItemClass)}>Sugestão 4</li>\n                <li className={css(listItemClass)}>Sugestão 5</li>\n            </ul>\n        </div>\n    )\n}"
+        ],
+        "names": [
+          "css",
+          "autocompleteClass",
+          "inputClass",
+          "listClass",
+          "listItemClass",
+          "Autocomplete",
+          "div",
+          "className",
+          "input",
+          "type",
+          "ul",
+          "li"
+        ],
+        "mappings": ";;;;;;;;;;;;;;;;;;;AACA,iBAAiB;AACjB,SAASA,GAAG,QAAQ,aAAa;AAEjC,kBAAkB,GAClB,SAASC,iBAAiB,EAAEC,UAAU,EAAEC,SAAS,EAAEC,aAAa,QAAQ,WAAW;AAKnF,OAAO,SAASC,aAAa,EAAsB;IAC/C,qBACI,QAACC;QAAIC,WAAWP,IAAIC;;0BAChB,QAACO;gBACGC,MAAK;gBACLF,WAAWP,IAAIE;;;;;;0BAGnB,QAACQ;gBAAGH,WAAWP,IAAIG;;kCACf,QAACQ;wBAAGJ,WAAWP,IAAII;kCAAgB;;;;;;kCACnC,QAACO;wBAAGJ,WAAWP,IAAII;kCAAgB;;;;;;kCACnC,QAACO;wBAAGJ,WAAWP,IAAII;kCAAgB;;;;;;kCACnC,QAACO;wBAAGJ,WAAWP,IAAII;kCAAgB;;;;;;kCACnC,QAACO;wBAAGJ,WAAWP,IAAII;kCAAgB;;;;;;;;;;;;;;;;;;AAInD;KAjBgBC"
+      }
+    },
+    {
+      "name": "vite:define",
+      "start": 1750631592872,
+      "end": 1750631592872,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1750631592872,
+      "end": 1750631592872,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750631592872,
+      "end": 1750631592872,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750631592872,
+      "end": 1750631592872,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750631592872,
+      "end": 1750631592872,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750631592872,
+      "end": 1750631592872,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1750631592872,
+      "end": 1750631592872,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/atoms/Autocomplete/index.tsx\");import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- utils --- */ import __vite__cjsImport2_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4130fc4\"; const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime[\"jsxDEV\"];\nimport { css } from \"/src/utils/css.ts\";\n/* --- styles --- */ import { autocompleteClass, inputClass, listClass, listItemClass } from \"/src/components/atoms/Autocomplete/styles.ts?t=1750631592823\";\nexport function Autocomplete({}) {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: css(autocompleteClass),\n        children: [\n            /*#__PURE__*/ _jsxDEV(\"input\", {\n                type: \"text\",\n                className: css(inputClass)\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                lineNumber: 14,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ _jsxDEV(\"ul\", {\n                className: css(listClass),\n                children: [\n                    /*#__PURE__*/ _jsxDEV(\"li\", {\n                        className: css(listItemClass),\n                        children: \"Sugestão 1\"\n                    }, void 0, false, {\n                        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                        lineNumber: 20,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ _jsxDEV(\"li\", {\n                        className: css(listItemClass),\n                        children: \"Sugestão 2\"\n                    }, void 0, false, {\n                        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                        lineNumber: 21,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ _jsxDEV(\"li\", {\n                        className: css(listItemClass),\n                        children: \"Sugestão 3\"\n                    }, void 0, false, {\n                        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                        lineNumber: 22,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ _jsxDEV(\"li\", {\n                        className: css(listItemClass),\n                        children: \"Sugestão 4\"\n                    }, void 0, false, {\n                        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                        lineNumber: 23,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ _jsxDEV(\"li\", {\n                        className: css(listItemClass),\n                        children: \"Sugestão 5\"\n                    }, void 0, false, {\n                        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                        lineNumber: 24,\n                        columnNumber: 17\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n                lineNumber: 19,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\",\n        lineNumber: 13,\n        columnNumber: 9\n    }, this);\n}\n_c = Autocomplete;\nvar _c;\n$RefreshReg$(_c, \"Autocomplete\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Autocomplete/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750631592872,
+      "end": 1750631592883,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

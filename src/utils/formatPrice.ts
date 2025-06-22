@@ -11,3 +11,12 @@
 export function formatPrice(value: string | number): string {
     return parseFloat(String(value)).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 }
+
+
+export function formatPriceToNumber(value: string): number {
+    if (!value) return 0;
+
+    const numberValue = value.replace("R$", "").replace(/[.]+/g, "").replace(/[,]/, ".");
+
+    return Number(numberValue);
+}

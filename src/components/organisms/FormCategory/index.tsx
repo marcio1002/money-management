@@ -74,16 +74,18 @@ export function FormCategory() {
             <form className="w-full" onSubmit={handleSubmit(handleSaveOrUpdateCategory)}>
                 <FormGroup className="w-full mb-3" name="name" text="Nome" required>
                     <Input {...register("name")} placeholder="Nome da categoria" />
+
+                    <FormError text={errors.name?.message ?? ""} />
                 </FormGroup>
-                <FormError text={errors.name?.message ?? ""} />
 
                 <FormGroup className="w-full mb-3" name="description" text="Descrição" required>
                     <Textarea
                         {...register("description")}
                         placeholder="Descreva informações sobre a categoria"
                     />
+
+                    <FormError text={errors.description?.message ?? ""} />
                 </FormGroup>
-                <FormError text={errors.description?.message ?? ""} />
 
                 <FormGroup className="w-full mb-3" name="image" text="Imagem" required>
                     {
@@ -126,8 +128,9 @@ export function FormCategory() {
                     <span className={infoFileImageClass}>
                         A imagem deve ser 250x250px ou 520x520px
                     </span>
+
+                    <FormError text={(errors.image?.message as string) ?? ""} />
                 </FormGroup>
-                <FormError text={(errors.image?.message as string) ?? ""} />
 
                 <div className="grid w-full mt-5">
                     <Button className="py-3" type="submit" disabled={!isValid}>

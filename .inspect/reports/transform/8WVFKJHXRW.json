@@ -1,0 +1,86 @@
+{
+  "resolvedId": "/home/marcio/Documentos/projetos/money-management/node_modules/.vite/deps/dayjs_plugin_utc.js",
+  "transforms": [
+    {
+      "name": "vite:optimized-deps",
+      "result": "import {\n  __commonJS\n} from \"./chunk-UXIASGQL.js\";\n\n// node_modules/dayjs/plugin/utc.js\nvar require_utc = __commonJS({\n  \"node_modules/dayjs/plugin/utc.js\"(exports, module) {\n    !function(t, i) {\n      \"object\" == typeof exports && \"undefined\" != typeof module ? module.exports = i() : \"function\" == typeof define && define.amd ? define(i) : (t = \"undefined\" != typeof globalThis ? globalThis : t || self).dayjs_plugin_utc = i();\n    }(exports, function() {\n      \"use strict\";\n      var t = \"minute\", i = /[+-]\\d\\d(?::?\\d\\d)?/g, e = /([+-]|\\d\\d)/g;\n      return function(s, f, n) {\n        var u = f.prototype;\n        n.utc = function(t2) {\n          var i2 = { date: t2, utc: true, args: arguments };\n          return new f(i2);\n        }, u.utc = function(i2) {\n          var e2 = n(this.toDate(), { locale: this.$L, utc: true });\n          return i2 ? e2.add(this.utcOffset(), t) : e2;\n        }, u.local = function() {\n          return n(this.toDate(), { locale: this.$L, utc: false });\n        };\n        var o = u.parse;\n        u.parse = function(t2) {\n          t2.utc && (this.$u = true), this.$utils().u(t2.$offset) || (this.$offset = t2.$offset), o.call(this, t2);\n        };\n        var r = u.init;\n        u.init = function() {\n          if (this.$u) {\n            var t2 = this.$d;\n            this.$y = t2.getUTCFullYear(), this.$M = t2.getUTCMonth(), this.$D = t2.getUTCDate(), this.$W = t2.getUTCDay(), this.$H = t2.getUTCHours(), this.$m = t2.getUTCMinutes(), this.$s = t2.getUTCSeconds(), this.$ms = t2.getUTCMilliseconds();\n          } else\n            r.call(this);\n        };\n        var a = u.utcOffset;\n        u.utcOffset = function(s2, f2) {\n          var n2 = this.$utils().u;\n          if (n2(s2))\n            return this.$u ? 0 : n2(this.$offset) ? a.call(this) : this.$offset;\n          if (\"string\" == typeof s2 && (s2 = function(t2) {\n            void 0 === t2 && (t2 = \"\");\n            var s3 = t2.match(i);\n            if (!s3)\n              return null;\n            var f3 = (\"\" + s3[0]).match(e) || [\"-\", 0, 0], n3 = f3[0], u3 = 60 * +f3[1] + +f3[2];\n            return 0 === u3 ? 0 : \"+\" === n3 ? u3 : -u3;\n          }(s2), null === s2))\n            return this;\n          var u2 = Math.abs(s2) <= 16 ? 60 * s2 : s2, o2 = this;\n          if (f2)\n            return o2.$offset = u2, o2.$u = 0 === s2, o2;\n          if (0 !== s2) {\n            var r2 = this.$u ? this.toDate().getTimezoneOffset() : -1 * this.utcOffset();\n            (o2 = this.local().add(u2 + r2, t)).$offset = u2, o2.$x.$localOffset = r2;\n          } else\n            o2 = this.utc();\n          return o2;\n        };\n        var h = u.format;\n        u.format = function(t2) {\n          var i2 = t2 || (this.$u ? \"YYYY-MM-DDTHH:mm:ss[Z]\" : \"\");\n          return h.call(this, i2);\n        }, u.valueOf = function() {\n          var t2 = this.$utils().u(this.$offset) ? 0 : this.$offset + (this.$x.$localOffset || this.$d.getTimezoneOffset());\n          return this.$d.valueOf() - 6e4 * t2;\n        }, u.isUTC = function() {\n          return !!this.$u;\n        }, u.toISOString = function() {\n          return this.toDate().toISOString();\n        }, u.toString = function() {\n          return this.toDate().toUTCString();\n        };\n        var l = u.toDate;\n        u.toDate = function(t2) {\n          return \"s\" === t2 && this.$offset ? n(this.format(\"YYYY-MM-DD HH:mm:ss:SSS\")).toDate() : l.call(this);\n        };\n        var c = u.diff;\n        u.diff = function(t2, i2, e2) {\n          if (t2 && this.$u === t2.$u)\n            return c.call(this, t2, i2, e2);\n          var s2 = this.local(), f2 = n(t2).local();\n          return c.call(s2, f2, i2, e2);\n        };\n      };\n    });\n  }\n});\nexport default require_utc();\n//# sourceMappingURL=dayjs_plugin_utc.js.map\n",
+      "start": 1750620937892,
+      "end": 1750620937901,
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:css",
+      "start": 1750620937901,
+      "end": 1750620937901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1750620937901,
+      "end": 1750620937901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1750620937901,
+      "end": 1750620937901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:react-swc",
+      "start": 1750620937901,
+      "end": 1750620937901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1750620937901,
+      "end": 1750620937901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1750620937901,
+      "end": 1750620937901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1750620937901,
+      "end": 1750620937901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1750620937901,
+      "end": 1750620937901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1750620937901,
+      "end": 1750620937901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1750620937901,
+      "end": 1750620937901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:client-inject",
+      "start": 1750620937901,
+      "end": 1750620937901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import {\n  __commonJS\n} from \"/node_modules/.vite/deps/chunk-UXIASGQL.js?v=d4130fc4\";\n\n// node_modules/dayjs/plugin/utc.js\nvar require_utc = __commonJS({\n  \"node_modules/dayjs/plugin/utc.js\"(exports, module) {\n    !function(t, i) {\n      \"object\" == typeof exports && \"undefined\" != typeof module ? module.exports = i() : \"function\" == typeof define && define.amd ? define(i) : (t = \"undefined\" != typeof globalThis ? globalThis : t || self).dayjs_plugin_utc = i();\n    }(exports, function() {\n      \"use strict\";\n      var t = \"minute\", i = /[+-]\\d\\d(?::?\\d\\d)?/g, e = /([+-]|\\d\\d)/g;\n      return function(s, f, n) {\n        var u = f.prototype;\n        n.utc = function(t2) {\n          var i2 = { date: t2, utc: true, args: arguments };\n          return new f(i2);\n        }, u.utc = function(i2) {\n          var e2 = n(this.toDate(), { locale: this.$L, utc: true });\n          return i2 ? e2.add(this.utcOffset(), t) : e2;\n        }, u.local = function() {\n          return n(this.toDate(), { locale: this.$L, utc: false });\n        };\n        var o = u.parse;\n        u.parse = function(t2) {\n          t2.utc && (this.$u = true), this.$utils().u(t2.$offset) || (this.$offset = t2.$offset), o.call(this, t2);\n        };\n        var r = u.init;\n        u.init = function() {\n          if (this.$u) {\n            var t2 = this.$d;\n            this.$y = t2.getUTCFullYear(), this.$M = t2.getUTCMonth(), this.$D = t2.getUTCDate(), this.$W = t2.getUTCDay(), this.$H = t2.getUTCHours(), this.$m = t2.getUTCMinutes(), this.$s = t2.getUTCSeconds(), this.$ms = t2.getUTCMilliseconds();\n          } else\n            r.call(this);\n        };\n        var a = u.utcOffset;\n        u.utcOffset = function(s2, f2) {\n          var n2 = this.$utils().u;\n          if (n2(s2))\n            return this.$u ? 0 : n2(this.$offset) ? a.call(this) : this.$offset;\n          if (\"string\" == typeof s2 && (s2 = function(t2) {\n            void 0 === t2 && (t2 = \"\");\n            var s3 = t2.match(i);\n            if (!s3)\n              return null;\n            var f3 = (\"\" + s3[0]).match(e) || [\"-\", 0, 0], n3 = f3[0], u3 = 60 * +f3[1] + +f3[2];\n            return 0 === u3 ? 0 : \"+\" === n3 ? u3 : -u3;\n          }(s2), null === s2))\n            return this;\n          var u2 = Math.abs(s2) <= 16 ? 60 * s2 : s2, o2 = this;\n          if (f2)\n            return o2.$offset = u2, o2.$u = 0 === s2, o2;\n          if (0 !== s2) {\n            var r2 = this.$u ? this.toDate().getTimezoneOffset() : -1 * this.utcOffset();\n            (o2 = this.local().add(u2 + r2, t)).$offset = u2, o2.$x.$localOffset = r2;\n          } else\n            o2 = this.utc();\n          return o2;\n        };\n        var h = u.format;\n        u.format = function(t2) {\n          var i2 = t2 || (this.$u ? \"YYYY-MM-DDTHH:mm:ss[Z]\" : \"\");\n          return h.call(this, i2);\n        }, u.valueOf = function() {\n          var t2 = this.$utils().u(this.$offset) ? 0 : this.$offset + (this.$x.$localOffset || this.$d.getTimezoneOffset());\n          return this.$d.valueOf() - 6e4 * t2;\n        }, u.isUTC = function() {\n          return !!this.$u;\n        }, u.toISOString = function() {\n          return this.toDate().toISOString();\n        }, u.toString = function() {\n          return this.toDate().toUTCString();\n        };\n        var l = u.toDate;\n        u.toDate = function(t2) {\n          return \"s\" === t2 && this.$offset ? n(this.format(\"YYYY-MM-DD HH:mm:ss:SSS\")).toDate() : l.call(this);\n        };\n        var c = u.diff;\n        u.diff = function(t2, i2, e2) {\n          if (t2 && this.$u === t2.$u)\n            return c.call(this, t2, i2, e2);\n          var s2 = this.local(), f2 = n(t2).local();\n          return c.call(s2, f2, i2, e2);\n        };\n      };\n    });\n  }\n});\nexport default require_utc();\n//# sourceMappingURL=dayjs_plugin_utc.js.map\n",
+      "start": 1750620937901,
+      "end": 1750620937902,
+      "order": "normal",
+      "sourcemaps": null
+    }
+  ]
+}

@@ -4,32 +4,32 @@
     {
       "name": "__load__",
       "result": "/* --- utils --- */\nimport { css } from \"@utils/css\";\n\n/* --- components --- */\nimport { CardAmount } from \"@components/atoms/CardAmount\";\nimport { CardLabel } from \"@components/atoms/CardLabel\";\nimport { CardThumbnail } from \"@components/atoms/CardThumbnail\";\n\n/* --- styles --- */\nimport { recipeClass } from \"./styles\";\n\n/* --- types --- */\nimport { CardRecipeProps } from \"./types\";\n\nexport function CardRecipe({ className = \"\", ...props }: CardRecipeProps) {\n    return (\n        <div className={css(recipeClass, className)} {...props}>\n            <CardThumbnail\n                className=\"bg-[#1F2836]\"\n                src=\"https://symfony.com/logos/symfony_white_03.png\"\n                alt=\"Logo symfony\"\n            />\n\n            <CardLabel text=\"Symfony\" />\n\n            <CardAmount amount={300} />\n        </div>\n    );\n}\n",
-      "start": 1733614384786,
-      "end": 1733614384786
+      "start": 1750621282109,
+      "end": 1750621282109
     },
     {
       "name": "vite:css",
-      "start": 1733614384786,
-      "end": 1733614384786,
+      "start": 1750621282109,
+      "end": 1750621282109,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1733614384786,
-      "end": 1733614384786,
+      "start": 1750621282109,
+      "end": 1750621282109,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1733614384786,
-      "end": 1733614384786,
+      "start": 1750621282109,
+      "end": 1750621282109,
       "order": "normal"
     },
     {
       "name": "vite:react-swc",
-      "result": "if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- utils --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nimport { css } from \"@utils/css\";\n/* --- components --- */ import { CardAmount } from \"@components/atoms/CardAmount\";\nimport { CardLabel } from \"@components/atoms/CardLabel\";\nimport { CardThumbnail } from \"@components/atoms/CardThumbnail\";\n/* --- styles --- */ import { recipeClass } from \"./styles\";\nexport function CardRecipe({ className = \"\", ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: css(recipeClass, className),\n        ...props,\n        children: [\n            /*#__PURE__*/ _jsxDEV(CardThumbnail, {\n                className: \"bg-[#1F2836]\",\n                src: \"https://symfony.com/logos/symfony_white_03.png\",\n                alt: \"Logo symfony\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n                lineNumber: 18,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ _jsxDEV(CardLabel, {\n                text: \"Symfony\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n                lineNumber: 24,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ _jsxDEV(CardAmount, {\n                amount: 300\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n                lineNumber: 26,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n        lineNumber: 17,\n        columnNumber: 9\n    }, this);\n}\n_c = CardRecipe;\nvar _c;\n$RefreshReg$(_c, \"CardRecipe\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
-      "start": 1733614384786,
-      "end": 1733614384795,
+      "result": "import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- utils --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nimport { css } from \"@utils/css\";\n/* --- components --- */ import { CardAmount } from \"@components/atoms/CardAmount\";\nimport { CardLabel } from \"@components/atoms/CardLabel\";\nimport { CardThumbnail } from \"@components/atoms/CardThumbnail\";\n/* --- styles --- */ import { recipeClass } from \"./styles\";\nexport function CardRecipe({ className = \"\", ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: css(recipeClass, className),\n        ...props,\n        children: [\n            /*#__PURE__*/ _jsxDEV(CardThumbnail, {\n                className: \"bg-[#1F2836]\",\n                src: \"https://symfony.com/logos/symfony_white_03.png\",\n                alt: \"Logo symfony\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n                lineNumber: 18,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ _jsxDEV(CardLabel, {\n                text: \"Symfony\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n                lineNumber: 24,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ _jsxDEV(CardAmount, {\n                amount: 300\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n                lineNumber: 26,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n        lineNumber: 17,\n        columnNumber: 9\n    }, this);\n}\n_c = CardRecipe;\nvar _c;\n$RefreshReg$(_c, \"CardRecipe\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750621282109,
+      "end": 1750621282110,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -54,56 +54,56 @@
           "text",
           "amount"
         ],
-        "mappings": ";;;;;;;;AAAA,iBAAiB;AACjB,SAASA,GAAG,QAAQ,aAAa;AAEjC,sBAAsB,GACtB,SAASC,UAAU,QAAQ,+BAA+B;AAC1D,SAASC,SAAS,QAAQ,8BAA8B;AACxD,SAASC,aAAa,QAAQ,kCAAkC;AAEhE,kBAAkB,GAClB,SAASC,WAAW,QAAQ,WAAW;AAKvC,OAAO,SAASC,WAAW,EAAEC,YAAY,EAAE,EAAE,GAAGC,OAAwB;IACpE,qBACI,QAACC;QAAIF,WAAWN,IAAII,aAAaE;QAAa,GAAGC,KAAK;;0BAClD,QAACJ;gBACGG,WAAU;gBACVG,KAAI;gBACJC,KAAI;;;;;;0BAGR,QAACR;gBAAUS,MAAK;;;;;;0BAEhB,QAACV;gBAAWW,QAAQ;;;;;;;;;;;;AAGhC;KAdgBP"
+        "mappings": ";;;;;;;;;;;;;;;;;;;AAAA,iBAAiB;AACjB,SAASA,GAAG,QAAQ,aAAa;AAEjC,sBAAsB,GACtB,SAASC,UAAU,QAAQ,+BAA+B;AAC1D,SAASC,SAAS,QAAQ,8BAA8B;AACxD,SAASC,aAAa,QAAQ,kCAAkC;AAEhE,kBAAkB,GAClB,SAASC,WAAW,QAAQ,WAAW;AAKvC,OAAO,SAASC,WAAW,EAAEC,YAAY,EAAE,EAAE,GAAGC,OAAwB;IACpE,qBACI,QAACC;QAAIF,WAAWN,IAAII,aAAaE;QAAa,GAAGC,KAAK;;0BAClD,QAACJ;gBACGG,WAAU;gBACVG,KAAI;gBACJC,KAAI;;;;;;0BAGR,QAACR;gBAAUS,MAAK;;;;;;0BAEhB,QAACV;gBAAWW,QAAQ;;;;;;;;;;;;AAGhC;KAdgBP"
       }
     },
     {
       "name": "vite:define",
-      "start": 1733614384796,
-      "end": 1733614384796,
+      "start": 1750621282110,
+      "end": 1750621282110,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1733614384796,
-      "end": 1733614384796,
+      "start": 1750621282110,
+      "end": 1750621282110,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1733614384796,
-      "end": 1733614384796,
+      "start": 1750621282110,
+      "end": 1750621282110,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1733614384796,
-      "end": 1733614384796,
+      "start": 1750621282110,
+      "end": 1750621282110,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1733614384796,
-      "end": 1733614384796,
+      "start": 1750621282110,
+      "end": 1750621282110,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1733614384796,
-      "end": 1733614384796,
+      "start": 1750621282110,
+      "end": 1750621282110,
       "order": "normal"
     },
     {
       "name": "vite:client-inject",
-      "start": 1733614384796,
-      "end": 1733614384796,
+      "start": 1750621282110,
+      "end": 1750621282110,
       "order": "normal"
     },
     {
       "name": "vite:import-analysis",
-      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/molecules/CardRecipe/index.tsx\");if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- utils --- */ import __vite__cjsImport1_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c12ee5d5\"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime[\"jsxDEV\"];\nimport { css } from \"/src/utils/css.ts\";\n/* --- components --- */ import { CardAmount } from \"/src/components/atoms/CardAmount/index.tsx\";\nimport { CardLabel } from \"/src/components/atoms/CardLabel/index.tsx\";\nimport { CardThumbnail } from \"/src/components/atoms/CardThumbnail/index.tsx\";\n/* --- styles --- */ import { recipeClass } from \"/src/components/molecules/CardRecipe/styles.ts\";\nexport function CardRecipe({ className = \"\", ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: css(recipeClass, className),\n        ...props,\n        children: [\n            /*#__PURE__*/ _jsxDEV(CardThumbnail, {\n                className: \"bg-[#1F2836]\",\n                src: \"https://symfony.com/logos/symfony_white_03.png\",\n                alt: \"Logo symfony\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n                lineNumber: 18,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ _jsxDEV(CardLabel, {\n                text: \"Symfony\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n                lineNumber: 24,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ _jsxDEV(CardAmount, {\n                amount: 300\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n                lineNumber: 26,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n        lineNumber: 17,\n        columnNumber: 9\n    }, this);\n}\n_c = CardRecipe;\nvar _c;\n$RefreshReg$(_c, \"CardRecipe\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
-      "start": 1733614384796,
-      "end": 1733614384797,
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/molecules/CardRecipe/index.tsx\");import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- utils --- */ import __vite__cjsImport2_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4130fc4\"; const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime[\"jsxDEV\"];\nimport { css } from \"/src/utils/css.ts\";\n/* --- components --- */ import { CardAmount } from \"/src/components/atoms/CardAmount/index.tsx?t=1750621146954\";\nimport { CardLabel } from \"/src/components/atoms/CardLabel/index.tsx\";\nimport { CardThumbnail } from \"/src/components/atoms/CardThumbnail/index.tsx\";\n/* --- styles --- */ import { recipeClass } from \"/src/components/molecules/CardRecipe/styles.ts\";\nexport function CardRecipe({ className = \"\", ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: css(recipeClass, className),\n        ...props,\n        children: [\n            /*#__PURE__*/ _jsxDEV(CardThumbnail, {\n                className: \"bg-[#1F2836]\",\n                src: \"https://symfony.com/logos/symfony_white_03.png\",\n                alt: \"Logo symfony\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n                lineNumber: 18,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ _jsxDEV(CardLabel, {\n                text: \"Symfony\"\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n                lineNumber: 24,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ _jsxDEV(CardAmount, {\n                amount: 300\n            }, void 0, false, {\n                fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n                lineNumber: 26,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\",\n        lineNumber: 17,\n        columnNumber: 9\n    }, this);\n}\n_c = CardRecipe;\nvar _c;\n$RefreshReg$(_c, \"CardRecipe\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/CardRecipe/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750621282110,
+      "end": 1750621282112,
       "order": "normal",
       "sourcemaps": null
     }

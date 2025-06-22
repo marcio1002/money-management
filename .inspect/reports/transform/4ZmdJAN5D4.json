@@ -4,32 +4,32 @@
     {
       "name": "__load__",
       "result": "/* --- utils --- */\nimport { css } from \"@utils/css\";\n\n/* --- types --- */\nimport { ButtonProps } from \"./types\";\n\n/* --- styles --- */\nimport { buttonClass } from \"./styles\";\n\nexport function Button({ children, className = \"\", ...props }: ButtonProps) {\n    return (\n        <button type=\"button\" className={css(buttonClass, className)} {...props}>\n            {children}\n        </button>\n    )\n}",
-      "start": 1733622660287,
-      "end": 1733622660287
+      "start": 1750620938352,
+      "end": 1750620938352
     },
     {
       "name": "vite:css",
-      "start": 1733622660287,
-      "end": 1733622660287,
+      "start": 1750620938352,
+      "end": 1750620938352,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1733622660287,
-      "end": 1733622660287,
+      "start": 1750620938352,
+      "end": 1750620938352,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1733622660287,
-      "end": 1733622660287,
+      "start": 1750620938352,
+      "end": 1750620938352,
       "order": "normal"
     },
     {
       "name": "vite:react-swc",
-      "result": "if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- utils --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nimport { css } from \"@utils/css\";\n/* --- styles --- */ import { buttonClass } from \"./styles\";\nexport function Button({ children, className = \"\", ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"button\", {\n        type: \"button\",\n        className: css(buttonClass, className),\n        ...props,\n        children: children\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\",\n        lineNumber: 12,\n        columnNumber: 9\n    }, this);\n}\n_c = Button;\nvar _c;\n$RefreshReg$(_c, \"Button\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
-      "start": 1733622660287,
-      "end": 1733622660288,
+      "result": "import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- utils --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nimport { css } from \"@utils/css\";\n/* --- styles --- */ import { buttonClass } from \"./styles\";\nexport function Button({ children, className = \"\", ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"button\", {\n        type: \"button\",\n        className: css(buttonClass, className),\n        ...props,\n        children: children\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\",\n        lineNumber: 12,\n        columnNumber: 9\n    }, this);\n}\n_c = Button;\nvar _c;\n$RefreshReg$(_c, \"Button\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750620938352,
+      "end": 1750620938368,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -49,56 +49,56 @@
           "button",
           "type"
         ],
-        "mappings": ";;;;;;;;AAAA,iBAAiB;AACjB,SAASA,GAAG,QAAQ,aAAa;AAKjC,kBAAkB,GAClB,SAASC,WAAW,QAAQ,WAAW;AAEvC,OAAO,SAASC,OAAO,EAAEC,QAAQ,EAAEC,YAAY,EAAE,EAAE,GAAGC,OAAoB;IACtE,qBACI,QAACC;QAAOC,MAAK;QAASH,WAAWJ,IAAIC,aAAaG;QAAa,GAAGC,KAAK;kBAClEF;;;;;;AAGb;KANgBD"
+        "mappings": ";;;;;;;;;;;;;;;;;;;AAAA,iBAAiB;AACjB,SAASA,GAAG,QAAQ,aAAa;AAKjC,kBAAkB,GAClB,SAASC,WAAW,QAAQ,WAAW;AAEvC,OAAO,SAASC,OAAO,EAAEC,QAAQ,EAAEC,YAAY,EAAE,EAAE,GAAGC,OAAoB;IACtE,qBACI,QAACC;QAAOC,MAAK;QAASH,WAAWJ,IAAIC,aAAaG;QAAa,GAAGC,KAAK;kBAClEF;;;;;;AAGb;KANgBD"
       }
     },
     {
       "name": "vite:define",
-      "start": 1733622660288,
-      "end": 1733622660288,
+      "start": 1750620938368,
+      "end": 1750620938368,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1733622660288,
-      "end": 1733622660288,
+      "start": 1750620938368,
+      "end": 1750620938368,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1733622660288,
-      "end": 1733622660288,
+      "start": 1750620938368,
+      "end": 1750620938368,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1733622660288,
-      "end": 1733622660288,
+      "start": 1750620938368,
+      "end": 1750620938368,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1733622660288,
-      "end": 1733622660288,
+      "start": 1750620938368,
+      "end": 1750620938368,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1733622660288,
-      "end": 1733622660288,
+      "start": 1750620938368,
+      "end": 1750620938368,
       "order": "normal"
     },
     {
       "name": "vite:client-inject",
-      "start": 1733622660288,
-      "end": 1733622660288,
+      "start": 1750620938368,
+      "end": 1750620938368,
       "order": "normal"
     },
     {
       "name": "vite:import-analysis",
-      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/atoms/Button/index.tsx\");if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- utils --- */ import __vite__cjsImport1_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c12ee5d5\"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime[\"jsxDEV\"];\nimport { css } from \"/src/utils/css.ts\";\n/* --- styles --- */ import { buttonClass } from \"/src/components/atoms/Button/styles.ts?t=1733622660272\";\nexport function Button({ children, className = \"\", ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"button\", {\n        type: \"button\",\n        className: css(buttonClass, className),\n        ...props,\n        children: children\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\",\n        lineNumber: 12,\n        columnNumber: 9\n    }, this);\n}\n_c = Button;\nvar _c;\n$RefreshReg$(_c, \"Button\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
-      "start": 1733622660288,
-      "end": 1733622660290,
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/atoms/Button/index.tsx\");import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- utils --- */ import __vite__cjsImport2_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4130fc4\"; const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime[\"jsxDEV\"];\nimport { css } from \"/src/utils/css.ts\";\n/* --- styles --- */ import { buttonClass } from \"/src/components/atoms/Button/styles.ts\";\nexport function Button({ children, className = \"\", ...props }) {\n    return /*#__PURE__*/ _jsxDEV(\"button\", {\n        type: \"button\",\n        className: css(buttonClass, className),\n        ...props,\n        children: children\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\",\n        lineNumber: 12,\n        columnNumber: 9\n    }, this);\n}\n_c = Button;\nvar _c;\n$RefreshReg$(_c, \"Button\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/atoms/Button/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750620938368,
+      "end": 1750620938370,
       "order": "normal",
       "sourcemaps": null
     }

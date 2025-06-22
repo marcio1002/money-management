@@ -4,32 +4,32 @@
     {
       "name": "__load__",
       "result": "/* --- libs --- */\nimport { IoAdd } from 'react-icons/io5';\n\n/* --- components --- */\nimport { Button } from '@components/atoms/Button';\n\nexport function SidebarBottom() {\n    return (\n        <div className='w-full flex justify-center py-3'>\n            <Button className='align-middle'>\n                Add Gasto\n\n                <IoAdd className='text-xl' />\n            </Button>\n        </div>\n    );\n}",
-      "start": 1733623191246,
-      "end": 1733623191246
+      "start": 1750620938349,
+      "end": 1750620938349
     },
     {
       "name": "vite:css",
-      "start": 1733623191246,
-      "end": 1733623191246,
+      "start": 1750620938349,
+      "end": 1750620938349,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1733623191246,
-      "end": 1733623191246,
+      "start": 1750620938349,
+      "end": 1750620938349,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1733623191246,
-      "end": 1733623191246,
+      "start": 1750620938349,
+      "end": 1750620938349,
       "order": "normal"
     },
     {
       "name": "vite:react-swc",
-      "result": "if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- libs --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nimport { IoAdd } from 'react-icons/io5';\n/* --- components --- */ import { Button } from '@components/atoms/Button';\nexport function SidebarBottom() {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: \"w-full flex justify-center py-3\",\n        children: /*#__PURE__*/ _jsxDEV(Button, {\n            className: \"align-middle\",\n            children: [\n                \"Add Gasto\",\n                /*#__PURE__*/ _jsxDEV(IoAdd, {\n                    className: \"text-xl\"\n                }, void 0, false, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\",\n                    lineNumber: 13,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\",\n            lineNumber: 10,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\",\n        lineNumber: 9,\n        columnNumber: 9\n    }, this);\n}\n_c = SidebarBottom;\nvar _c;\n$RefreshReg$(_c, \"SidebarBottom\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
-      "start": 1733623191246,
-      "end": 1733623191249,
+      "result": "import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- libs --- */ import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nimport { IoAdd } from 'react-icons/io5';\n/* --- components --- */ import { Button } from '@components/atoms/Button';\nexport function SidebarBottom() {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: \"w-full flex justify-center py-3\",\n        children: /*#__PURE__*/ _jsxDEV(Button, {\n            className: \"align-middle\",\n            children: [\n                \"Add Gasto\",\n                /*#__PURE__*/ _jsxDEV(IoAdd, {\n                    className: \"text-xl\"\n                }, void 0, false, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\",\n                    lineNumber: 13,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\",\n            lineNumber: 10,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\",\n        lineNumber: 9,\n        columnNumber: 9\n    }, this);\n}\n_c = SidebarBottom;\nvar _c;\n$RefreshReg$(_c, \"SidebarBottom\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750620938349,
+      "end": 1750620938358,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -46,56 +46,56 @@
           "div",
           "className"
         ],
-        "mappings": ";;;;;;;;AAAA,gBAAgB;AAChB,SAASA,KAAK,QAAQ,kBAAkB;AAExC,sBAAsB,GACtB,SAASC,MAAM,QAAQ,2BAA2B;AAElD,OAAO,SAASC;IACZ,qBACI,QAACC;QAAIC,WAAU;kBACX,cAAA,QAACH;YAAOG,WAAU;;gBAAe;8BAG7B,QAACJ;oBAAMI,WAAU;;;;;;;;;;;;;;;;;AAIjC;KAVgBF"
+        "mappings": ";;;;;;;;;;;;;;;;;;;AAAA,gBAAgB;AAChB,SAASA,KAAK,QAAQ,kBAAkB;AAExC,sBAAsB,GACtB,SAASC,MAAM,QAAQ,2BAA2B;AAElD,OAAO,SAASC;IACZ,qBACI,QAACC;QAAIC,WAAU;kBACX,cAAA,QAACH;YAAOG,WAAU;;gBAAe;8BAG7B,QAACJ;oBAAMI,WAAU;;;;;;;;;;;;;;;;;AAIjC;KAVgBF"
       }
     },
     {
       "name": "vite:define",
-      "start": 1733623191249,
-      "end": 1733623191249,
+      "start": 1750620938358,
+      "end": 1750620938358,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1733623191249,
-      "end": 1733623191249,
+      "start": 1750620938358,
+      "end": 1750620938358,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1733623191249,
-      "end": 1733623191249,
+      "start": 1750620938358,
+      "end": 1750620938358,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1733623191249,
-      "end": 1733623191249,
+      "start": 1750620938358,
+      "end": 1750620938358,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1733623191249,
-      "end": 1733623191249,
+      "start": 1750620938358,
+      "end": 1750620938358,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1733623191249,
-      "end": 1733623191249,
+      "start": 1750620938358,
+      "end": 1750620938358,
       "order": "normal"
     },
     {
       "name": "vite:client-inject",
-      "start": 1733623191249,
-      "end": 1733623191249,
+      "start": 1750620938358,
+      "end": 1750620938358,
       "order": "normal"
     },
     {
       "name": "vite:import-analysis",
-      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/molecules/SidebarBottom/index.tsx\");if (!window.$RefreshReg$) throw new Error(\"React refresh preamble was not loaded. Something is wrong.\");\nconst prevRefreshReg = window.$RefreshReg$;\nconst prevRefreshSig = window.$RefreshSig$;\nwindow.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\");\nwindow.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n\nimport * as RefreshRuntime from \"/@react-refresh\";\n\n/* --- libs --- */ import __vite__cjsImport1_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=c12ee5d5\"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime[\"jsxDEV\"];\nimport { IoAdd } from \"/node_modules/.vite/deps/react-icons_io5.js?v=6e70cf96\";\n/* --- components --- */ import { Button } from \"/src/components/atoms/Button/index.tsx?t=1733622660272\";\nexport function SidebarBottom() {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: \"w-full flex justify-center py-3\",\n        children: /*#__PURE__*/ _jsxDEV(Button, {\n            className: \"align-middle\",\n            children: [\n                \"Add Gasto\",\n                /*#__PURE__*/ _jsxDEV(IoAdd, {\n                    className: \"text-xl\"\n                }, void 0, false, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\",\n                    lineNumber: 13,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\",\n            lineNumber: 10,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\",\n        lineNumber: 9,\n        columnNumber: 9\n    }, this);\n}\n_c = SidebarBottom;\nvar _c;\n$RefreshReg$(_c, \"SidebarBottom\");\n\n\nwindow.$RefreshReg$ = prevRefreshReg;\nwindow.$RefreshSig$ = prevRefreshSig;\n\nRefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n  RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\", currentExports);\n  import.meta.hot.accept((nextExports) => {\n    if (!nextExports) return;\n    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\", currentExports, nextExports);\n    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n  });\n});\n",
-      "start": 1733623191249,
-      "end": 1733623191252,
+      "result": "import { createHotContext as __vite__createHotContext } from \"/@vite/client\";import.meta.hot = __vite__createHotContext(\"/src/components/molecules/SidebarBottom/index.tsx\");import * as RefreshRuntime from \"/@react-refresh\";\nconst inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;\n\nlet prevRefreshReg;\nlet prevRefreshSig;\n\nif (import.meta.hot && !inWebWorker) {\n  if (!window.$RefreshReg$) {\n    throw new Error(\n      \"@vitejs/plugin-react-swc can't detect preamble. Something is wrong.\"\n    );\n  }\n\n  prevRefreshReg = window.$RefreshReg$;\n  prevRefreshSig = window.$RefreshSig$;\n  window.$RefreshReg$ = RefreshRuntime.getRefreshReg(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\");\n  window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;\n}\n\n/* --- libs --- */ import __vite__cjsImport2_react_jsxDevRuntime from \"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4130fc4\"; const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime[\"jsxDEV\"];\nimport { IoAdd } from \"/node_modules/.vite/deps/react-icons_io5.js?v=d4130fc4\";\n/* --- components --- */ import { Button } from \"/src/components/atoms/Button/index.tsx\";\nexport function SidebarBottom() {\n    return /*#__PURE__*/ _jsxDEV(\"div\", {\n        className: \"w-full flex justify-center py-3\",\n        children: /*#__PURE__*/ _jsxDEV(Button, {\n            className: \"align-middle\",\n            children: [\n                \"Add Gasto\",\n                /*#__PURE__*/ _jsxDEV(IoAdd, {\n                    className: \"text-xl\"\n                }, void 0, false, {\n                    fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\",\n                    lineNumber: 13,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\",\n            lineNumber: 10,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\",\n        lineNumber: 9,\n        columnNumber: 9\n    }, this);\n}\n_c = SidebarBottom;\nvar _c;\n$RefreshReg$(_c, \"SidebarBottom\");\n\n\nif (import.meta.hot && !inWebWorker) {\n  window.$RefreshReg$ = prevRefreshReg;\n  window.$RefreshSig$ = prevRefreshSig;\n}\n\n\nif (import.meta.hot && !inWebWorker) {\n  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {\n    RefreshRuntime.registerExportsForReactRefresh(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\", currentExports);\n    import.meta.hot.accept((nextExports) => {\n      if (!nextExports) return;\n      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate(\"/home/marcio/Documentos/projetos/money-management/src/components/molecules/SidebarBottom/index.tsx\", currentExports, nextExports);\n      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);\n    });\n  });\n}\n",
+      "start": 1750620938358,
+      "end": 1750620938359,
       "order": "normal",
       "sourcemaps": null
     }

@@ -1,7 +1,7 @@
 ## Money Management
 
-
-
+### Requirements
+-   NodeJS >= 20.13
 
 ### Dependencies
 
